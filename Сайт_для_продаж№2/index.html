@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Віртуальна барахолка</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <link rel="stylesheet" href="css/media.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.8/fullpage.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+
+    <meta name="description" content="На этом сайте можно купить б/у технику! Сайт для покупки товаров.">
+    <meta name="keywords" content="Виртуальная барахолка, купить телефон, мой сайт, купить видеокарту, купить в Одессе, Одесская барахолка, купить, купить в Одессе, купить телефон б/у, купить телефон б/у в Одессе">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1374/1374072.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- -------------------------- Шапка -------------------------- -->
+
+
+    <div class="baner">
+        <img src="icons/sale.png" width="60px" height="60px">
+        <h1>БАРАХОЛКА!</h1>
+
+        <!-- dropdown -->
+        <div class="dropdown">
+            <button class="dropbtn">
+                <img src="icons/56763.png" width="30px" height="30px"><p>Меню</p>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <input type="text" placeholder="Пошук" id="myInput" onkeyup="filterFunction()">
+                <a href="#golovna">Головна</a>
+                <a href="#work">Телефони</a>
+                <a href="#questionable">Комп'ютери</a>
+                <a href="#questionable">Комп.Запчастини</a>
+                <a href="#spare">Інше</a>
+                <a href="#data">Контакти</a>
+                <div class="add">
+                    <p>Тут могла бути ваша реклама..</p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            function filterFunction() {
+                var input, filter, ul, li, a, i;
+                input = document.getElementById("myInput");
+                filter = input.value.toUpperCase();
+                div = document.getElementById("myDropdown");
+                a = div.getElementsByTagName("a");
+                for (i = 0; i < a.length; i++) {
+                    if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        a[i].style.display = "";
+                    } else {
+                        a[i].style.display = "none";
+                    }
+                }
+            }
+        </script>
+
+        <!-- dropdown -->
+    </div>
+
+    <!-- -------------------------- Главная -------------------------- -->
+    <div class="opis" id="golovna">
+        <h2>Читайте опис товарів!</h2>
+        <h3>
+            <li>Сайт можна замовити за Gmail: gu700300@gmail.com</li>
+        </h3>
+    </div>
+
+    <div class="main">
+        <div class="wallpapers" id="wall"></div>
+    </div>
+
+    <div class="gos">
+        <li class="go">
+            <div class="second">
+                <img src="imgs/Товары/IMG_5448.JPG" width="250px" height="250px">
+                <a href="#day">ПЕРЕЙТИ</a>
+                <p>iPhone Xr</p>
+            </div>
+        </li>
+
+        <li class="go1">
+            <div class="second1">
+                <img src="imgs/Товары/IMG_4680.JPG" width="250px" height="250px">
+                <a href="#moto">ПЕРЕЙТИ</a>
+                <p>Motorola Razr V3</p>
+            </div>
+        </li>
+
+        <li class="go2">
+            <div class="second2">
+                <img src="imgs/Товары/PXL_20220801_112005793.jpg" width="250px" height="250px">
+                <a href="#veev">ПЕРЕЙТИ</a>
+                <p>IQOS VEEV</p>
+            </div>
+        </li>
+
+        <li class="go3">
+            <div class="second3">
+                <img src="imgs/Товары/IMG_4654.JPG" width="250px" height="250px">
+                <a href="#3210">ПЕРЕЙТИ</a>
+                <p>Nokia 3210</p>
+            </div>
+        </li>
+    </div>
+    <!-- ------------------------gos2-------------------------- -->
+    <div class="gos2">
+        <li class="go">
+            <div class="second">
+                <img src="imgs/Товары/IMG_4685.JPG" width="250px" height="250px">
+                <a href="#Nokia3100">ПЕРЕЙТИ</a>
+                <p>Nokia3100</p>
+            </div>
+        </li>
+
+        <li class="go1">
+            <div class="second1">
+                <img src="imgs/Товары/IMG_6222.JPG" width="250px" height="250px">
+                <a href="#Bravis">ПЕРЕЙТИ</a>
+                <p>Bravis A509_Jeans</p>
+            </div>
+        </li>
+
+        <li class="go2">
+            <div class="second2">
+                <img src="imgs/Товары/PXL_20220821_173852560.jpg" width="250px" height="250px">
+                <a href="#Sams">ПЕРЕЙТИ</a>
+                <p>Samsung Galaxy Grand</p>
+            </div>
+        </li>
+
+        <li class="go3">
+            <div class="second3">
+                <img src="imgs/Товары/IMG_0622.JPG" width="250px" height="250px">
+                <a href="#Pocket">ПЕРЕЙТИ</a>
+                <p>Pocket PC</p>
+            </div>
+        </li>
+    </div>
+    <!-- --------------------------  Телефони --------------------------  -->
+
+    <div class="section" id="work">
+        <p>Телефони</p>
+        <!-- <a href="#wall">На головну</a> -->
+    </div>
+
+    <div class="tovar1" id="Sams">
+        <ul class="im9">
+            <li><img src="imgs/Товары/PXL_20220821_173852560.jpg" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/PXL_20220821_173627961.jpg" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/PXL_20220821_173056301.jpg" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/PXL_20220821_172946920.jpg" width="300px" height="300px"></li>
+        </ul>
+        <div class="botton9">
+            <a href="#data">Купити</a>
+        </div>
+        <div class="botton91">
+            <a href="#wall">На головну</a>
+        </div>
+
+        <div class="opis9">
+            <h4>Samsung Galaxy Grand Prrime (G531H)</h4>
+            <p>Телефон повністю у робочому стані.
+                <br>Телефон скинутий до заводських налаштувань та
+                <br>готовий до використання. Встановлено android 5.1.1.
+                <br>У комплекті сам телефон, рідна коробка та два чохли.
+                <br>Єдиний мінус – розбите скло, на роботу не впливає.
+                <br>Сенсор працює добре.
+                <br><br>Цiна --> 800грн</p>
+        </div>
+
+    </div>
+
+
+    <div class="tovar1" id="Bravis">
+        <ul class="im9">
+            <li><img src="imgs/Товары/IMG_6222.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_6221.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_6223.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_6220.JPG" width="300px" height="300px"></li>
+        </ul>
+
+        <div class="botton9">
+            <a href="#data">Купити</a>
+        </div>
+        <div class="botton91">
+            <a href="#wall">На головну</a>
+        </div>
+
+        <div class="opis9">
+            <h4>Bravis A509_Jeans</h4>
+            <p>Телефон працює на 100% та готовий до використання.
+                <br>Усі функції працюють, екран цілий.
+                <br>Встановлено Android 8.1.0 (Go edition).
+                <br>Пам'яті 8гб. У комплекті немає акумулятора, лише телефон.
+                <br>Співрозмовника чути добре, жодних нарікань у роботі нема.
+                <br>Телефон на 2 sim-карти та картку пам'яті.
+                <br><br>Ціна --> 400грн</p>
+        </div>
+    </div>
+
+
+    <div class="tovar1" id="moto">
+        <ul class="im9">
+            <li><img src="imgs/Товары/IMG_4680.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4681.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4683.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4682.JPG" width="300px" height="300px"></li>
+        </ul>
+
+        <div class="botton9">
+            <a href="#data">Купити</a>
+        </div>
+        <div class="botton91">
+            <a href="#wall">На головну</a>
+        </div>
+
+        <div class="opis9">
+            <h4>Motorola Razr V3</h4>
+            <p>Телефон в ідеальному стані, плата повністю справна,
+                <br>АЛЕ проблема в шлейфі екрану.
+                <br>Не відображає зображення. Потрібно міняти шлейф.
+                <br>Продаю як на відновлення, в колекцію чи запчастини.
+                <br><br>Ціна --> 250грн</p>
+        </div>
+    </div>
+
+
+    <div class="tovar1" id="3210">
+        <ul class="im9">
+            <li><img src="imgs/Товары/IMG_4654.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4655.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4656.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4657.JPG" width="300px" height="300px"></li>
+        </ul>
+
+        <div class="botton9">
+            <a href="#data">Купити</a>
+        </div>
+        <div class="botton91">
+            <a href="#wall">На головну</a>
+        </div>
+
+        <div class="opis9">
+            <h4>Nokia 3210</h4>
+            <p>У неробочому стані, продаю як на запчастини чи відновлення.
+                <br>У комплекті лише телефони та старi акумулятори.
+                <br><br>Цiна --> 300грн</p>
+        </div>
+    </div>
+
+
+    <div class="tovar1" id="Nokia3100">
+        <ul class="im9">
+            <li><img src="imgs/Товары/IMG_4685.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4687.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4688.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4686.JPG" width="300px" height="300px"></li>
+        </ul>
+
+        <div class="botton9">
+            <a href="#data">Купити</a>
+        </div>
+        <div class="botton91">
+            <a href="#wall">На головну</a>
+        </div>
+
+        <div class="opis9">
+            <h4>Nokia 3100</h4>
+            <p>Телефон повністю справний. Але іноді перезавантажується,
+                <br>не знаю у чому проблема.
+                <br>Продаю як на запчастини чи відновлення.
+                <br><br>Цiна --> 80грн</p>
+        </div>
+    </div>
+
+    <div class="tovar1">
+        <ul class="im9">
+            <li><img src="imgs/Товары/IMG_4658.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4659.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4660.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4661.JPG" width="300px" height="300px"></li>
+        </ul>
+
+        <div class="botton9">
+            <a href="#data">Купити</a>
+        </div>
+        <div class="botton91">
+            <a href="#wall">На головну</a>
+        </div>
+
+        <div class="opis9">
+            <h4>Amena AlCATEL One Touch 311</h4>
+            <p>У неробочому стані, продаю як на запчастини чи відновлення.
+                <br>У комплекті лише телефон.
+                <br><br>Цiна --> 50грн</p>
+        </div>
+    </div>
+
+    <div class="tovar1">
+        <ul class="im9">
+            <li><img src="imgs/Товары/IMG_4676.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4677.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4679.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_4678.JPG" width="300px" height="300px"></li>
+        </ul>
+
+        <div class="botton9">
+            <a href="#data">Купити</a>
+        </div>
+        <div class="botton91">
+            <a href="#wall">На головну</a>
+        </div>
+
+        <div class="opis9">
+            <h4>Siemens A75</h4>
+            <p>Телефони в неробочому стані, продаю як на запчастини
+                <br> або відновлення. Той, що темний подає ознаки життя,
+                <br>при вмиканні загоряється екран, потім гасне.
+                <br><br>Цiна за два --> 80грн</p>
+        </div>
+    </div>
+
+
+    <div class="tovar1" id="Samsung">
+        <ul class="im9">
+            <li><img src="imgs/Товары/IMG_6214.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_6215.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_6216.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_6218.JPG" width="300px" height="300px"></li>
+        </ul>
+
+        <div class="botton9">
+            <a href="#data">Купити</a>
+        </div>
+        <div class="botton91">
+            <a href="#wall">На головну</a>
+        </div>
+
+        <div class="opis9">
+            <h4>Samsung SGH-A800</h4>
+            <p>Телефон у неробочому стані, немає акумулятора,
+                <br>продаю як на запчастини.
+                <br><br>Цiна --> 40грн</p>
+        </div>
+    </div>
+
+
+    <div class="tovar1">
+        <ul class="im9">
+            <li><img src="imgs/Товары/IMG_6224.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_6225.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_6226.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_6227.JPG" width="300px" height="300px"></li>
+        </ul>
+
+        <div class="botton9">
+            <a href="#data">Купити</a>
+        </div>
+        <div class="botton91">
+            <a href="#wall">На головну</a>
+        </div>
+
+        <div class="opis9">
+            <h4>LG - X145</h4>
+            <p>Телефон у неробочому стані. Не знаю у чому проблема.
+                <br>Екран подряпаний, але на роботу не впливає.
+                <br>Продаю як на запчастини чи відновлення.
+                <br>У комплекті сам телефон та акумулятор.
+                <br><br>Цiна --> 50грн</p>
+        </div>
+    </div>
+
+
+
+    <div class="tovar1" id="day">
+        <ul class="im9">
+            <li><img src="imgs/Товары/IMG_5446.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_5447.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_5448.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_5451.JPG" width="300px" height="300px"></li>
+        </ul>
+
+        <div class="botton9">
+            <a href="#data">Купити</a>
+        </div>
+        <div class="botton91">
+            <a href="#wall">На головну</a>
+        </div>
+
+        <div class="opis9">
+            <h4>iPhone Xr</h4>
+            <p>Телефон в ідеальному стані. З моменту покупки був у чохлі та
+                <br> під захисним склом.
+                <br>Немає жодних слідів використання, подряпин або тріщин немає.
+                <br>Всі компоненти оригінальні, нічого ніколи не змінювалося.
+                <br>Є проблема: перестав вмикатися. Не знаю чому.
+                <br>У сервісі сказали, що проблема із процесором.
+                <br>Стоїть iCloud.<br>Цiна --> 4400грн</p>
+        </div>
+    </div>
+
+
+    <div class="tovar1">
+        <ul class="im9">
+            <li><img src="imgs/Товары/PXL_20220801_110449688.jpg" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/PXL_20220801_110515430.jpg" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/PXL_20220801_110631021.jpg" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/PXL_20220801_110746781.jpg" width="300px" height="300px"></li>
+        </ul>
+
+        <div class="botton9">
+            <a href="#data">Купити</a>
+        </div>
+        <div class="botton91">
+            <a href="#wall">На головну</a>
+        </div>
+
+        <div class="opis9">
+            <h4>HTC Droid Incredible 4G LTE (T329d) </h4>
+            <p>Телефон у неробочому стані. На екрані є дві тріщини,
+                <br>але на роботу сенсора ніяк не впливають.
+                <br>Сам екран цілий. У комплекті телефон та укумулятор.
+                <br>Телефон не вмикається, не знаю чому.
+                <br>Продаю як на запчастини чи відновлення.
+                <br><br>Цiна --> 120грн</p>
+        </div>
+    </div>
+
+
+    <div class="tovar1">
+        <ul class="im9">
+            <li><img src="imgs/Товары/PXL_20220801_110936793.jpg" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/PXL_20220801_111214420.jpg" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/PXL_20220801_111320686.jpg" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/PXL_20220801_111715151.jpg" width="300px" height="300px"></li>
+        </ul>
+
+        <div class="botton9">
+            <a href="#data">Купити</a>
+        </div>
+        <div class="botton91">
+            <a href="#wall">На головну</a>
+        </div>
+
+        <div class="opis9">
+            <h4>HTC Rhyme (PL46100)</h4>
+            <p>Телефон у неробочому стані. Екран цілий, на корпусі
+                <br>є сліди використання. Телефон не вмикається, не знаю чому.
+                <br>Продаю як на запчастини чи під ремонт.
+                <br>У комплекті лише телефон, без аккумулятора.
+                <br>Акумалятор підходить як у моделі HTC Droid Incredible.
+                <br><br>Цiна --> 100грн</p>
+        </div>
+    </div>
+
+    <!-- -------------------------- Комп'ютери / Комп. запчастини -------------------------- -->
+
+    <div class="section" id="questionable">
+        <p>Комп'ютери / Комп. запчастини</p>
+        <!-- <a href="#wall">На головну</a> -->
+    </div>
+
+    <div class="tovar1" id="Pocket">
+        <ul class="im9">
+            <li><img src="imgs/Товары/IMG_0622.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_0616.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_0624.JPG" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/IMG_0625.JPG" width="300px" height="300px"></li>
+        </ul>
+
+        <div class="botton9">
+            <a href="#data">Купити</a>
+        </div>
+        <div class="botton91">
+            <a href="#wall">На головну</a>
+        </div>
+
+        <div class="opis9">
+            <h4>Pocket PC Medion</h4>
+            <p>Повністю робочий, в ідеальному стані.
+                <br>У комплекті сам КПК, зарядний шнур та стілус.
+                <br>Екран резистивний. Зверху є роз'єм під карту пам'яті.
+                <br>Апарат повністю на німецькiй мовi.
+                <br><br>Цiна --> 250грн</p>
+        </div>
+    </div>
+
+
+
+    <!-- -------------------------- На запчасти или восстановление -------------------------- -->
+    <div class="section" id="spare">
+        <p>Інше</p>
+    </div>
+
+
+    <div class="tovar1" id="veev">
+        <ul class="im9">
+            <li><img src="imgs/Товары/PXL_20220801_112005793.jpg" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/PXL_20220801_112132616.jpg" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/PXL_20220801_112511129.jpg" width="300px" height="300px"></li>
+            <li><img src="imgs/Товары/PXL_20220801_112054620.jpg" width="300px" height="300px"></li>
+        </ul>
+
+        <div class="botton9">
+            <a href="#data">Купити</a>
+        </div>
+        <div class="botton91">
+            <a href="#wall">На головну</a>
+        </div>
+
+        <div class="opis9">
+            <h4>IQOS VEEV</h4>
+            <p>Продам IQOS VEEV. Повністю робітник i готовий до використання.
+                <br>Практично не був у використанні стан нового.
+                <br>У комплекті все, що на фото. Заряджається від кабелю USB С.
+                <br>Верхні панелi з рідиною змінюються, знімаються.
+                <br><br>Цiна --> 250грн</p>
+        </div>
+    </div>
+
+
+
+
+    <!-- --------------------------  Как купить? --------------------------  -->
+
+    <div class="data" id="data">
+        <h1>Як купити?</h1>
+    </div>
+    <div class="mydata">
+        <p>Купити можна замовивши доставку Новою Поштою або Укрпоштою.
+            <br>Пишіть чи дзвоніть, постараюся відповісти.
+            <br><br>Для замовлення товару можете надіслати листа на електронну пошту,
+            <br>для цього вкажіть своє Ім'я, Прізвище та По-батькові, номер телефону, місто,
+            <br> оператор доставки (Нова пошта або Укрпошта) та номер відділення пошти.
+            <br> Або телефонуйте.
+            <br>Можливий незначний торг.
+        </p>
+        <div class="prodav">
+            <p><br><br>Продавець:<br>Gmail: <img src="icons/G.png" width="20px" height="20px"> gu700300@gmail.com</p>
+            <a href="https://t.me/Segor5"><img src="icons/739158.png" width="20px" height="20px">Написати в Telegram</a>
+            <a class="gmail" href="https://mail.google.com"><img src="icons/G.png" width="20px" height="20px">Написати в Gmail</a>
+        </div>
+    </div>
+
+    <!-- <div class="bottonDown">
+        <a href="#Top">На головну</a>
+    </div> -->
+</body>
+
+</html>
