@@ -24,11 +24,12 @@ html {
 .baner .dropdown {
   float: left;
   overflow: hidden;
-  background-color: #22d188;
-  border-radius: 5px;
+  background-color: #25c984;
+  border-radius: 2px;
   margin-left: 570px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
 }
 .baner .dropdown .dropbtn {
   border: none;
@@ -55,6 +56,7 @@ html {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 .baner .dropdown .dropdown-content {
+  margin-left: -55px;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -66,7 +68,7 @@ html {
   font-size: 25px;
   padding-left: 20px;
   padding-top: 20px;
-  padding-right: 20px;
+  padding-right: 45px;
   padding-bottom: 20px;
 }
 .baner .dropdown .dropdown-content a {
@@ -491,9 +493,7 @@ html {
 }
 .tovar1 .opis9 p {
   border: 4px solid #dddddd;
-  white-space: nowrap;
   background-color: #fff;
-  font-size: 20px;
   margin-left: 80px;
   margin-top: -20px;
   margin-bottom: 20px;
@@ -503,6 +503,8 @@ html {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 720px;
+  font-size: 20px;
+  white-space: nowrap;
 }
 .section {
   margin-top: 80px;
@@ -567,7 +569,7 @@ html {
   font-size: 25px;
   color: #000000;
 }
-.mydata .prodav a {
+.mydata .prodav .telegram {
   position: absolute;
   white-space: nowrap;
   margin-top: -50px;
@@ -583,27 +585,34 @@ html {
   font-size: 20px;
   text-decoration: none;
 }
-.mydata .prodav a:hover {
+.mydata .prodav .telegram:hover {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   background-color: #426a85;
 }
-.mydata .prodav a img {
+.mydata .prodav .telegram img {
   margin-right: 20px;
   margin-top: 5px;
 }
 .mydata .prodav .gmail {
+  position: absolute;
+  white-space: nowrap;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #ec7c60;
-  color: #000000;
+  color: #ffffff;
   border-radius: 6px;
   font-size: 20px;
   text-decoration: none;
-  margin-left: 430px;
+  margin-top: -49px;
+  margin-left: 450px;
 }
 .mydata .prodav .gmail:hover {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   background-color: #974f3c;
+}
+.mydata .prodav .gmail img {
+  margin-right: 20px;
+  margin-top: 5px;
 }
