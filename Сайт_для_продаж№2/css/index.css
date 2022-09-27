@@ -100,6 +100,11 @@ html {
 .baner .dropdown:hover .dropdown-content {
   display: block;
 }
+.gol {
+  top: 10px;
+  margin-left: 48%;
+  position: absolute;
+}
 .opis {
   background-color: #e0bfbf;
   border-radius: 5px;
@@ -132,24 +137,56 @@ html {
   padding-bottom: 850px;
   background-color: #94e2d8;
 }
-.gos {
+.box {
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  height: 370px;
+  margin-right: 0;
+  transform-origin: bottom;
+  width: 1800px;
+}
+@keyframes bounce-1 {
+  0% {
+    transform: translateX(-600px);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(-600px);
+  }
+}
+@keyframes bounce-2 {
+  0% {
+    transform: translateX(-100px);
+  }
+  50% {
+    transform: translateX(-600px);
+  }
+  100% {
+    transform: translateX(-100px);
+  }
+}
+.bounce-1 {
+  animation-name: bounce-1;
+  animation-timing-function: linear;
+}
+.bounce-1 .gos1 {
   display: flex;
-  margin-left: -945px;
+  margin-left: -1200px;
   margin-top: -870px;
 }
-.gos .go .second {
-  padding-top: 20px;
-  padding-bottom: 50px;
-  padding-right: 30px;
-  margin-right: 270px;
-  margin-left: 1270px;
+.bounce-1 .gos1 .go .second {
+  width: 300px;
+  height: 370px;
   background-color: #6dacd6;
 }
-.gos .go .second img {
+.bounce-1 .gos1 .go .second img {
   border-radius: 8px;
+  margin-top: 20px;
   margin-left: 20px;
 }
-.gos .go .second a {
+.bounce-1 .gos1 .go .second a {
   position: relative;
   font-family: Helvetica, Arial, sans-serif;
   margin-left: 100px;
@@ -160,140 +197,45 @@ html {
   padding: 10px;
   background-color: #df5656;
 }
-.gos .go .second a:hover {
+.bounce-1 .gos1 .go .second a:hover {
   background-color: #973230;
 }
-.gos .go .second p {
+.bounce-1 .gos1 .go .second p {
+  text-align: center;
+  background-color: #ddd;
   white-space: nowrap;
   font-family: Helvetica, Arial, sans-serif;
   color: #000000;
   margin-top: -15px;
-  margin-left: 100px;
+  width: 100%;
+  height: 30px;
   font-size: 26px;
 }
-.gos .go1 .second1 {
-  padding-top: 20px;
-  padding-bottom: 50px;
-  padding-right: 15px;
-  margin-right: 270px;
-  background-color: #6dacd6;
-}
-.gos .go1 .second1 img {
-  border-radius: 8px;
-  margin-left: 20px;
-}
-.gos .go1 .second1 a {
-  position: relative;
-  font-family: Helvetica, Arial, sans-serif;
-  margin-left: 100px;
-  top: 60px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #fff;
-  padding: 10px;
-  background-color: #df5656;
-}
-.gos .go1 .second1 a:hover {
-  background-color: #973230;
-}
-.gos .go1 .second1 p {
-  font-family: Helvetica, Arial, sans-serif;
-  white-space: nowrap;
-  color: #000000;
-  margin-top: -15px;
-  margin-left: 10px;
-  font-size: 26px;
-}
-.gos .go2 .second2 {
-  padding-top: 20px;
-  padding-bottom: 50px;
-  padding-right: 30px;
-  margin-right: 270px;
-  background-color: #6dacd6;
-}
-.gos .go2 .second2 img {
-  border-radius: 8px;
-  margin-left: 20px;
-}
-.gos .go2 .second2 a {
-  position: relative;
-  font-family: Helvetica, Arial, sans-serif;
-  margin-left: 100px;
-  top: 60px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #fff;
-  padding: 10px;
-  background-color: #df5656;
-}
-.gos .go2 .second2 a:hover {
-  background-color: #973230;
-}
-.gos .go2 .second2 p {
-  font-family: Helvetica, Arial, sans-serif;
-  white-space: nowrap;
-  color: #000000;
-  margin-top: -15px;
-  margin-left: 75px;
-  font-size: 26px;
-}
-.gos .go3 {
-  margin-right: 80%;
-}
-.gos .go3 .second3 {
-  padding-top: 20px;
-  padding-bottom: 50px;
-  padding-right: 20px;
-  background-color: #6dacd6;
-}
-.gos .go3 .second3 img {
-  border-radius: 8px;
-  margin-left: 20px;
-}
-.gos .go3 .second3 a {
-  position: relative;
-  font-family: Helvetica, Arial, sans-serif;
-  margin-left: 100px;
-  top: 60px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #fff;
-  padding: 10px;
-  background-color: #df5656;
-}
-.gos .go3 .second3 a:hover {
-  background-color: #973230;
-}
-.gos .go3 .second3 p {
-  font-family: Helvetica, Arial, sans-serif;
-  white-space: nowrap;
-  color: #000000;
-  margin-top: -15px;
-  margin-left: 40px;
-  font-size: 26px;
-}
-.gos li {
+.bounce-1 .gos1 li {
   list-style-type: none;
-  margin-left: -250px;
+  margin-left: 1270px;
+  margin-right: -1250px;
 }
-.gos2 {
+.bounce-2 {
+  animation-name: bounce-2;
+  animation-timing-function: linear;
+}
+.bounce-2 .gos2 {
   display: flex;
-  margin-left: -945px;
+  margin-left: -1200px;
   margin-top: 21px;
 }
-.gos2 .go .second {
-  padding-top: 20px;
-  padding-bottom: 50px;
-  padding-right: 30px;
-  margin-right: 270px;
-  margin-left: 1270px;
+.bounce-2 .gos2 .go .second {
+  width: 300px;
+  height: 370px;
   background-color: #6dacd6;
 }
-.gos2 .go .second img {
+.bounce-2 .gos2 .go .second img {
   border-radius: 8px;
+  margin-top: 20px;
   margin-left: 20px;
 }
-.gos2 .go .second a {
+.bounce-2 .gos2 .go .second a {
   position: relative;
   font-family: Helvetica, Arial, sans-serif;
   margin-left: 100px;
@@ -304,122 +246,24 @@ html {
   padding: 10px;
   background-color: #df5656;
 }
-.gos2 .go .second a:hover {
+.bounce-2 .gos2 .go .second a:hover {
   background-color: #973230;
 }
-.gos2 .go .second p {
+.bounce-2 .gos2 .go .second p {
+  text-align: center;
+  background-color: #ddd;
   white-space: nowrap;
   font-family: Helvetica, Arial, sans-serif;
   color: #000000;
   margin-top: -15px;
-  margin-left: 85px;
+  width: 100%;
+  height: 30px;
   font-size: 26px;
 }
-.gos2 .go1 .second1 {
-  padding-top: 20px;
-  padding-bottom: 50px;
-  padding-right: 25px;
-  margin-right: 273px;
-  background-color: #6dacd6;
-}
-.gos2 .go1 .second1 img {
-  border-radius: 8px;
-  margin-left: 25px;
-}
-.gos2 .go1 .second1 a {
-  position: relative;
-  font-family: Helvetica, Arial, sans-serif;
-  margin-left: 100px;
-  top: 60px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #fff;
-  padding: 10px;
-  background-color: #df5656;
-}
-.gos2 .go1 .second1 a:hover {
-  background-color: #973230;
-}
-.gos2 .go1 .second1 p {
-  font-family: Helvetica, Arial, sans-serif;
-  white-space: nowrap;
-  color: #000000;
-  margin-top: -15px;
-  margin-left: 35px;
-  font-size: 26px;
-}
-.gos2 .go2 .second2 {
-  padding-top: 20px;
-  padding-bottom: 50px;
-  padding-right: 10px;
-  margin-right: 270px;
-  background-color: #6dacd6;
-}
-.gos2 .go2 .second2 img {
-  border-radius: 8px;
-  margin-left: 25px;
-}
-.gos2 .go2 .second2 a {
-  position: relative;
-  font-family: Helvetica, Arial, sans-serif;
-  margin-left: 100px;
-  top: 60px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #fff;
-  padding: 10px;
-  background-color: #df5656;
-}
-.gos2 .go2 .second2 a:hover {
-  background-color: #973230;
-}
-.gos2 .go2 .second2 p {
-  font-family: Helvetica, Arial, sans-serif;
-  white-space: nowrap;
-  color: #000000;
-  margin-top: -15px;
-  margin-left: 10px;
-  font-size: 26px;
-}
-.gos2 .go3 {
-  margin-right: 80%;
-}
-.gos2 .go3 .second3 {
-  padding-top: 20px;
-  padding-bottom: 50px;
-  padding-right: 19px;
-  margin-right: 0px;
-  background-color: #6dacd6;
-}
-.gos2 .go3 .second3 img {
-  border-radius: 8px;
-  margin-left: 24px;
-}
-.gos2 .go3 .second3 a {
-  position: relative;
-  font-family: Helvetica, Arial, sans-serif;
-  margin-left: 100px;
-  top: 60px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #fff;
-  padding: 10px;
-  background-color: #df5656;
-}
-.gos2 .go3 .second3 a:hover {
-  background-color: #973230;
-}
-.gos2 .go3 .second3 p {
-  font-family: Helvetica, Arial, sans-serif;
-  white-space: nowrap;
-  color: #000000;
-  margin-top: -15px;
-  margin-left: 85px;
-  font-size: 26px;
-}
-.gos2 li {
+.bounce-2 .gos2 li {
   list-style-type: none;
-  margin-left: -250px;
+  margin-left: 1270px;
+  margin-right: -1250px;
 }
 .tovar1 {
   border-radius: 20px;
@@ -428,7 +272,7 @@ html {
   height: 100%;
   padding-bottom: 10px;
   margin-top: 20px;
-  margin-left: 7%;
+  margin-left: 80px;
 }
 .tovar1 img {
   border-radius: 10px;
@@ -444,8 +288,7 @@ html {
   display: flex;
 }
 .tovar1 .botton9 {
-  position: relative;
-  margin-top: 110px;
+  margin-top: 7.5%;
 }
 .tovar1 .botton9 a {
   font-size: 30px;
