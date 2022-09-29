@@ -24,117 +24,56 @@
         <img src="icons/sale.png" width="60px" height="60px">
         <h1>БАРАХОЛКА!</h1>
         <!-- ------------------------------------------------------- -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Поле поиска</title>
-        <style>
-            .search-box {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                background: #9b9b9b;
-                height: 40px;
-                border-radius: 40px;
-                padding: 10px;
-            }
-            
-            .search-box:hover>.search-txt {
-                width: 240px;
-                padding: 0 6px;
-            }
-            
-            .search-box:hover>.search-btn {
-                background: white;
-                color: black;
-            }
-            
-            .search-btn {
-                color: #eeeeee;
-                float: right;
-                width: 40px;
-                height: 40px;
-                border-radius: 50%;
-                background: #2f3640;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                transition: 0.4s;
-                color: white;
-                cursor: pointer;
-                text-decoration: none;
-            }
-            
-            .search-btn>i {
-                font-size: 20px;
-            }
-            
-            .search-txt {
-                border: none;
-                background: none;
-                outline: none;
-                float: left;
-                padding: 0;
-                color: white;
-                font-size: 16px;
-                transition: 0.4s;
-                line-height: 40px;
-                width: 0px;
-                font-weight: bold;
-            }
-        </style>
-        </head>
+        <!-- <div class="d1">
+            <form>
+                <input type="text" placeholder="Искать здесь...">
+                <button type="submit"></button>
+            </form>
+        </div> -->
+        <!-- ------------------------------------------------------- -->
 
-        <body>
-            <div class="search-box">
-                <input type="text" name="" class="search-txt" placeholder="Type to search" />
-                <a class="search-btn" href="#">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                </a>
-            </div>
-            <!-- ------------------------------------------------------- -->
-
-            <!-- dropdown -->
-            <div class="dropdown">
-                <button class="dropbtn">
+        <!-- dropdown -->
+        <div class="dropdown">
+            <button class="dropbtn">
                 <img src="icons/56763.png" width="30px" height="30px"><p>Меню</p>
                 <i class="fa fa-caret-down"></i>
             </button>
-                <div class="dropdown-content">
-                    <input type="text" placeholder="Пошук" id="myInput" onkeyup="filterFunction()">
-                    <a href="#wall">Головна</a>
-                    <a href="#work">Телефони</a>
-                    <a href="#questionable">Комп'ютери<br>та Запчастини</a>
-                    <a href="#spare">Інше</a>
-                    <a href="#data">Контакти</a>
-                    <div class="add">
-                        <p>Тут могла бути ваша реклама..</p>
-                    </div>
+            <div class="dropdown-content">
+                <input type="text" placeholder="Пошук" id="myInput" onkeyup="filterFunction()">
+                <a href="#wall">Головна</a>
+                <a href="#work">Телефони</a>
+                <a href="#questionable">Комп'ютери<br>та Запчастини</a>
+                <a href="#spare">Інше</a>
+                <a href="#data">Контакти</a>
+                <div class="add">
+                    <p>Тут могла бути ваша реклама..</p>
                 </div>
             </div>
+        </div>
 
-            <script>
-                /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
-                function myFunction() {
-                    document.getElementById("myDropdown").classList.toggle("show");
-                }
+        <script>
+            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
 
-                function filterFunction() {
-                    var input, filter, ul, li, a, i;
-                    input = document.getElementById("myInput");
-                    filter = input.value.toUpperCase();
-                    div = document.getElementById("myDropdown");
-                    a = div.getElementsByTagName("a");
-                    for (i = 0; i < a.length; i++) {
-                        if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
-                            a[i].style.display = "";
-                        } else {
-                            a[i].style.display = "none";
-                        }
+            function filterFunction() {
+                var input, filter, ul, li, a, i;
+                input = document.getElementById("myInput");
+                filter = input.value.toUpperCase();
+                div = document.getElementById("myDropdown");
+                a = div.getElementsByTagName("a");
+                for (i = 0; i < a.length; i++) {
+                    if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        a[i].style.display = "";
+                    } else {
+                        a[i].style.display = "none";
                     }
                 }
-            </script>
+            }
+        </script>
 
-            <!-- dropdown -->
+        <!-- dropdown -->
     </div>
 
     <!-- -------------------------- Главная -------------------------- -->
@@ -817,6 +756,6 @@
             <a class="gmail" href="https://mail.google.com"><img src="icons/G.png" width="20px" height="20px">Написати в Gmail</a>
         </div>
     </div>
-    </body>
+</body>
 
 </html>
