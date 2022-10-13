@@ -8,13 +8,15 @@
     
 }
 html{
-    background-color: #e1f7f7;
+    background-color: #c9d2d3;
+    //background-color: #e1f7f7;
     scroll-behavior: smooth;
 }
 .baner {
     //  .border(#000000);
     z-index: 2;
-    background-color: #147e70;
+    background-color: rgb(6, 125, 155);
+    //background-color: #147e70;
     position: fixed;
     top: 0;
     left: 0;
@@ -34,7 +36,8 @@ html{
     .dropdown {
         float: left;
         overflow: hidden;
-        background-color: #25c984;
+        background-color: rgb(159, 215, 230);
+        //background-color: #25c984;
         border-radius: 2px;
         margin-left: 570px;
         margin-top: 0px;
@@ -62,7 +65,8 @@ html{
             }
         }
            &:hover {
-            background-color: rgb(22, 133, 81);
+            background-color: rgb(112, 153, 165);
+            //background-color: rgb(22, 133, 81);
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
           }
           .dropdown-content {
@@ -120,16 +124,17 @@ html{
     position: absolute;
 }
 .opis {
+    width: 1410px;
+    height: 140px;
     background-color: #e0bfbf;
     border-radius: 5px;
-    padding-right: 1410px;
     h2 {
         white-space: nowrap;
         font-family: Helvetica, Arial, sans-serif;
         font-size: 30px;
         margin-left: 600px;
         padding-top: 20px;
-        margin-top: 110px;
+        margin-top: 80px;
         color: #e74c3c
     }
     h3 {
@@ -138,7 +143,6 @@ html{
         font-size: 24px;
         margin-left: 420px;
         margin-top: 0px;
-        padding-bottom: 20px;
         color: rgb(0, 0, 0);
     }
 }
@@ -147,31 +151,31 @@ html{
         border-radius: 5px;
         margin-top: 5px;
         margin-right: 1700px;
-
-        padding-right: 1410px;
-        padding-top: 60px;
-        padding-bottom: 850px;
+        margin-top: 20px;
+        width: 1405px;
+        height: 850px;
         background-color: #94e2d8;
     }
 }
 .box {
+    margin-top: 40px;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     //background-color: #000000;
-    height: 370px;
+    height: 360px;
     margin-right: 0;
     transform-origin: bottom;
     width: 500px;
 }
 @keyframes bounce-1 {
     0%   { transform: translateX(-70px); }
-    50%  { transform: translateX(100px); }
+    50%  { transform: translateX(90px); }
     100% { transform: translateX(-70px); }
 }
 @keyframes bounce-2 {
-    0%   { transform: translateX(100px); }
+    0%   { transform: translateX(90px); }
     50%  { transform: translateX(-70px); }
-    100% { transform: translateX(100px); }
+    100% { transform: translateX(90px); }
 }
 
 .bounce-1 {
@@ -279,20 +283,30 @@ li {
 }
 }
 .tovar1 {
-    border-radius: 20px;
-    background-color: @fon;
-
+    //border-radius: 20px;
+    background-color: #f1f1f1;
+    //background-color: @fon;
     width: 1250px;
     height: 100%;
     padding-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 80px;
+    .Name {
+        margin-top: -20px;
+        width: 100%;
+        height: 50px;
+        background-color: #a7d6f3;
+        h4 {
+            font-size: 35px;
+            text-align: center;
+            color: #000000;
+        }
+    }
     img{
         border-radius: 10px;
     }
     .im9{
         padding-top: 30px;
-        margin-top: 30px;
         margin-left: -40px;
         display: flex;
         li {
@@ -300,90 +314,64 @@ li {
             display: flex;
         }
     }
-    .botton9 {
-        //position: relative;
-        margin-top: 7.5%;
-        a {
+    .bottons {
+        margin-left: 80px;
+        margin-top: 40px;
+        display: flex;
+        li {
+            list-style-type: none;
+            margin-left: 40px;
+          a{
+            white-space: nowrap;
             font-size: 30px;
-            padding: 10px 88px 10px 88px;
-            margin-left: 850px;
-            background-color: @buy;
+            padding: 10px 60px 10px 60px;
+            background-color: rgb(0, 122, 153);
             text-decoration: none;
             color: aliceblue;
             font-family: Helvetica, Arial, sans-serif;
             border-radius: 5px;
         &:hover {
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            background-color: rgb(23, 107, 34);
+            background-color: rgb(23, 52, 107);
+            }
+          }
         }
-      }
-    }
-  .botton91 {
-    margin-top: 40px;
-      a{
-        white-space: nowrap;
-        font-size: 30px;
-        padding: 10px 60px 10px 60px;
-        margin-left: 850px;
-        background-color: rgb(0, 122, 153);
-        text-decoration: none;
-        color: aliceblue;
-        font-family: Helvetica, Arial, sans-serif;
-        border-radius: 5px;
-    &:hover {
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        background-color: rgb(23, 52, 107);
-        }
-      }
     }
 
     .opis9 {
-        margin-top: -220px;
-        h4 {
-            white-space: nowrap;
-            font-size: 30px;
+        margin-left: 80px;
             margin-top: 40px;
-            margin-left: 90px;
-            margin-right: 950px;
-            color: @red;
-        }
+            margin-bottom: 20px;
+            margin-right: 600px;
         p {
             .border(#dddddd);
+            margin-left: 10px;
             background-color: #fff;
-            margin-left: 80px;
-            margin-top: -20px;
-            margin-bottom: 20px;
-
-            margin-right: 600px;
     
             border-radius: 8px;
 
-            width: 730px;
-            height: 100%;
-            
+            width: 1070px;
+            height: 100%; 
             font-size: 20px;
-            white-space: nowrap;
-             white-space: nowrap;
         }
         
 
     }
 }
 .section {
-    // margin: -10px;
+    margin-left: 0px;
     margin-top: 80px;
-    margin-right: 100%;
     
-    padding-right: 1330px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 100px;
-    background-color: #22d188;
+    padding-right: 1400px;
+
+    //width: 100%;
+    height: 100px;
+    background-color: rgb(45, 115, 134);
+    //background-color: #22d188;
         p {
             white-space: nowrap;
             position: relative;
-            padding-top: 0px;
-            padding-bottom: 0px;
+            top: 30%;
             margin-left: 50px;
             color: #fff;
             font-size: 40px;
@@ -399,7 +387,8 @@ li {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 100px;
-    background-color:  #3ebead;
+    background-color: rgb(53, 133, 155);
+    //background-color:  #3ebead;
     h1 {
         white-space: nowrap;
         color: rgb(255, 255, 255);
@@ -416,43 +405,51 @@ li {
     margin-top: -25px;
     margin-left: -10px;
     margin-right: 80%;
+    width: 1430px;
+    height: 450px;
+            
     padding-bottom: 50px;
     
-    padding-right: 1430px;
-    background-color:  #7fe0d3;
+    //padding-right: 1430px;
+    background-color: rgb(63, 152, 177);
+    //ackground-color:  #7fe0d3;
     p {
         white-space: nowrap;
         padding-bottom: 40px;
         padding-top: 40px;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         font-size: 25px;
         margin-left: 100px;
+        font-weight: bold;
     }
     .prodav {
+        margin-left: 0px;
+        display: flex;
+        li {
+            margin-top: -20px;
+            display: flex;
+        }
         p {
             white-space: nowrap;
-            margin-top: -130px;
             margin-left: 100px;
             font-size: 25px;
-            color: #000000;
+            color: #ffffff;
         }
         .telegram {
+            text-align: center;
             white-space: nowrap;
-            position: absolute;
-            white-space: nowrap;
-            margin-top: -50px;
             margin-bottom: 20px;
             margin-left: 100px;
     
-            padding-left: 40px;
-            padding-right: 40px;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            width: 300px;
+            height: 50px;
+
             background-color: #55aee9;
             color: rgb(255, 255, 255);
             border-radius: 6px;
             font-size: 20px;
             text-decoration: none;
+            font-weight: bold;
             &:hover {
                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
                 background-color: #426a85;
@@ -463,20 +460,20 @@ li {
             }
         }
         .gmail {
-            position: absolute;
+            
             white-space: nowrap;
-            padding-left: 40px;
-            padding-right: 40px;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            text-align: center;
+            width: 220px;
+            height: 50px;
+
             background-color: #ec7c60;
             color: rgb(255, 255, 255);
             border-radius: 6px;
             font-size: 20px;
             text-decoration: none;
 
-            margin-top: -49px;
-            margin-left: 450px;
+            margin-left: 40px;
+            font-weight: bold;
             &:hover {
                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
                 background-color: #974f3c;
