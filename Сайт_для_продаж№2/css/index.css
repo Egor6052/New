@@ -11,11 +11,35 @@ html {
   right: 0;
   display: flex;
 }
+.baner a {
+  text-decoration: none;
+}
 .baner img {
   margin-top: 10px;
   margin-left: 90px;
 }
+.baner img.rot {
+  animation: 1s linear 0s normal none infinite running rot;
+  -webkit-animation: 10s linear 0s normal none infinite running rot;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .baner h1 {
+  text-decoration: none;
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 128px;

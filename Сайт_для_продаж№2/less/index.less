@@ -22,16 +22,43 @@ html{
     left: 0;
     right: 0;
     display: flex;
+    a{
+        text-decoration: none;
+    }
         img{
             margin-top: 10px;
             margin-left: 90px;
         }
+        img.rot {
+            animation: 1s linear 0s normal none infinite running rot;
+            -webkit-animation: 10s linear 0s normal none infinite running rot;
+            //width: 100px;
+          }
+          @keyframes rot {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+          @-webkit-keyframes rot {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
         h1 {
+            text-decoration: none;
             margin-top: 20px;
             margin-left: 50px;
             margin-right: 128px;
             color: #fff;
         }
+    
+        
     //  test
     .dropdown {
         float: left;
@@ -115,7 +142,6 @@ html{
         &:hover .dropdown-content {
             display: block;
           }
-
     }
 }
 .gol{
