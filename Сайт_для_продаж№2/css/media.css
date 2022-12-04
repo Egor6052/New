@@ -213,3 +213,20 @@
         height: 20px;
     }
 }
+
+@media (max-width: 350px) {
+    .wall2 {
+        margin-right: -350px;
+    }
+}
+
+@media (max-width: 250px) {
+    .rot {
+        width: 80px;
+        height: 80px;
+    }
+    .wall2 {
+        font-size: 30px;
+        margin-right: -700px;
+    }
+}
