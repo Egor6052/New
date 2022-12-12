@@ -185,6 +185,62 @@ html {
     transform: translateX(90px);
   }
 }
+.new .name {
+  background-color: #426a85;
+  height: 100px;
+  width: 1410px;
+}
+.new .name p {
+  white-space: nowrap;
+  position: relative;
+  top: 25%;
+  margin-left: 50px;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 40px;
+}
+.new .newTovar {
+  margin-left: -40px;
+  display: flex;
+}
+.new .newTovar li {
+  list-style-type: none;
+}
+.new .newTovar .Tov .new1 {
+  margin-left: 40px;
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+.new .newTovar .Tov .new1 img {
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.new .newTovar .Tov .new1 p {
+  font-size: 30px;
+  text-align: center;
+  background-color: #ddd;
+  white-space: nowrap;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000000;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.new .newTovar .Tov .new1 a {
+  font-size: 25px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 99px 15px 99.5px;
+  margin-left: 0px;
+  background-color: #88d4be;
+}
+.new .newTovar .Tov .new1 a:hover {
+  background-color: #4fc0c0;
+}
 .bounce-1 {
   animation-name: bounce-1;
   animation-timing-function: linear;
@@ -202,7 +258,7 @@ html {
 .bounce-1 .gos1 .go .second img {
   border-radius: 8px;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 .bounce-1 .gos1 .go .second a {
   position: relative;
@@ -247,7 +303,7 @@ html {
 .bounce-2 .gos2 .go .second img {
   border-radius: 8px;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 .bounce-2 .gos2 .go .second a {
   position: relative;
@@ -340,7 +396,7 @@ html {
 .section {
   margin-left: 0px;
   margin-top: 80px;
-  padding-right: 1400px;
+  padding-right: 1410px;
   margin-right: 1400px;
   background-color: #2d7386;
 }
