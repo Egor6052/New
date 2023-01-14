@@ -176,35 +176,41 @@ html body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 40px;
 }
-.new .stroka .setka1x4 {
+.strokaNew {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.strokaNew .setka1x4 {
   display: flex;
 }
-.new .stroka .setka1x4 .setka1x2 {
+.strokaNew .setka1x4 .setka1x2 {
+  margin-left: -40px;
   display: flex;
 }
-.new .stroka .setka1x4 .setka1x2 li {
+.strokaNew .setka1x4 .setka1x2 li {
   margin-left: 20px;
   display: flex;
 }
-.new .stroka .setka1x4 .setka1x2 .tovar2 {
+.strokaNew .setka1x4 .setka1x2 .tovar2 {
   border-radius: 10px;
   text-decoration: none;
-  background-color: #4d4d4d;
+  background-color: #5c5c5c;
   height: 450px;
   width: 310px;
 }
-.new .stroka .setka1x4 .setka1x2 .tovar2 img {
+.strokaNew .setka1x4 .setka1x2 .tovar2 img {
   border-radius: 10px;
   margin-top: 5px;
   margin-left: 5px;
 }
-.new .stroka .setka1x4 .setka1x2 .tovar2 .botton p {
+.strokaNew .setka1x4 .setka1x2 .tovar2 .botton p {
+  font-family: Helvetica, Arial, sans-serif;
   margin-top: 90px;
   margin-left: 20px;
   color: #ffffff;
   font-size: 30px;
 }
-.new .stroka .setka1x4 .setka1x2 .tovar2 .Name h4 {
+.strokaNew .setka1x4 .setka1x2 .tovar2 .Name h4 {
   margin-top: -150px;
   text-align: center;
   color: #ffffff;
@@ -237,6 +243,7 @@ html body {
   margin-left: 5px;
 }
 .stroka .setka1x4 .setka1x2 .tovar2 .botton p {
+  font-family: Helvetica, Arial, sans-serif;
   margin-top: 90px;
   margin-left: 20px;
   color: #ffffff;
@@ -296,6 +303,7 @@ html body {
   background-color: #2b5b7a;
 }
 .mydata p {
+  font-family: Helvetica, Arial, sans-serif;
   padding-bottom: 40px;
   padding-top: 40px;
   color: #ffffff;
@@ -311,11 +319,13 @@ html body {
   display: flex;
 }
 .mydata .prodav p {
+  font-family: Helvetica, Arial, sans-serif;
   white-space: nowrap;
   margin-left: 100px;
   color: #ffffff;
 }
 .mydata .prodav .telegram {
+  font-family: Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   margin-bottom: 20px;
@@ -335,6 +345,7 @@ html body {
   margin-top: 5px;
 }
 .mydata .prodav .gmail {
+  font-family: Helvetica, Arial, sans-serif;
   white-space: nowrap;
   text-align: center;
   background-color: #ec7c60;

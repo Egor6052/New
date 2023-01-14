@@ -82,31 +82,31 @@
         font-size: 80px;
     }
     /* Новые товары  */
-    .new .stroka .setka1x4 {
+    .strokaNew .setka1x4 {
         display: block;
         margin-top: 20px;
     }
-    .new .stroka .setka1x4 .setka1x2 {
+    .strokaNew .setka1x4 .setka1x2 {
         margin-top: 20px;
     }
-    .new .stroka .setka1x4 .setka1x2 .tovar2 {
+    .strokaNew .setka1x4 .setka1x2 .tovar2 {
         margin-left: 20px;
         border-radius: 30px;
         height: 850px;
         width: 610px;
     }
-    .new .stroka .setka1x4 .setka1x2 .tovar2 img {
+    .strokaNew .setka1x4 .setka1x2 .tovar2 img {
         border-radius: 30px;
         margin-top: 20px;
         margin-left: 20px;
         width: 570px;
         height: 570px;
     }
-    .new .stroka .setka1x4 .setka1x2 .tovar2 .Name h4 {
+    .strokaNew .setka1x4 .setka1x2 .tovar2 .Name h4 {
         margin-top: -290px;
         font-size: 60px;
     }
-    .new .stroka .setka1x4 .setka1x2 .tovar2 .botton p {
+    .strokaNew .setka1x4 .setka1x2 .tovar2 .botton p {
         margin-top: 160px;
         font-size: 70px;
     }
