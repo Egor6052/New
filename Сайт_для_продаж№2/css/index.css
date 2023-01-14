@@ -1,6 +1,14 @@
 html {
   background-color: #1f1f1f;
   scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+html body {
+  width: 1405px;
+  height: 2405px;
+  margin: 0;
 }
 .baner {
   z-index: 2;
@@ -154,37 +162,6 @@ html {
   height: 850px;
   background-color: #1f1f1f;
 }
-.box {
-  margin-top: 40px;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  height: 360px;
-  margin-right: 0;
-  transform-origin: bottom;
-  width: 500px;
-}
-@keyframes bounce-1 {
-  0% {
-    transform: translateX(-70px);
-  }
-  50% {
-    transform: translateX(30px);
-  }
-  100% {
-    transform: translateX(-70px);
-  }
-}
-@keyframes bounce-2 {
-  0% {
-    transform: translateX(30px);
-  }
-  50% {
-    transform: translateX(-70px);
-  }
-  100% {
-    transform: translateX(30px);
-  }
-}
 .new .name {
   background-color: #1d4a57;
   height: 100px;
@@ -199,152 +176,76 @@ html {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 40px;
 }
-.new .setka1x2 {
+.new .stroka .setka1x4 {
   display: flex;
 }
-.new .setka1x2 li {
+.new .stroka .setka1x4 .setka1x2 {
+  display: flex;
+}
+.new .stroka .setka1x4 .setka1x2 li {
   margin-left: 20px;
   display: flex;
 }
-.new .setka1x2 .tovar2 {
+.new .stroka .setka1x4 .setka1x2 .tovar2 {
   border-radius: 10px;
   text-decoration: none;
   background-color: #4d4d4d;
   height: 450px;
   width: 310px;
 }
-.new .setka1x2 .tovar2 img {
+.new .stroka .setka1x4 .setka1x2 .tovar2 img {
   border-radius: 10px;
   margin-top: 5px;
   margin-left: 5px;
 }
-.new .setka1x2 .tovar2 .Name h4 {
-  text-align: center;
-  margin-top: 10px;
-  color: #ffffff;
-}
-.new .setka1x2 .tovar2 .botton p {
-  margin-top: 30px;
+.new .stroka .setka1x4 .setka1x2 .tovar2 .botton p {
+  margin-top: 90px;
   margin-left: 20px;
   color: #ffffff;
   font-size: 30px;
 }
-.bounce-1 {
-  animation-name: bounce-1;
-  animation-timing-function: linear;
-}
-.bounce-1 .gos1 {
-  display: flex;
-  margin-left: -1200px;
-  margin-top: -890px;
-}
-.bounce-1 .gos1 li {
-  margin-left: 20px;
-  display: flex;
-}
-.bounce-1 .gos1 .tovar2 {
-  border-radius: 10px;
-  text-decoration: none;
-  background-color: #4d4d4d;
-  height: 450px;
-  width: 310px;
-}
-.bounce-1 .gos1 .tovar2 img {
-  border-radius: 10px;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-.bounce-1 .gos1 .tovar2 .Name h4 {
+.new .stroka .setka1x4 .setka1x2 .tovar2 .Name h4 {
+  margin-top: -150px;
   text-align: center;
-  margin-top: 10px;
   color: #ffffff;
-}
-.bounce-1 .gos1 .tovar2 .botton p {
-  margin-top: 30px;
-  margin-left: 20px;
-  color: #ffffff;
-  font-size: 30px;
-}
-.bounce-1 .gos1 li {
-  list-style-type: none;
-  margin-left: 1270px;
-  margin-right: -1250px;
-}
-.bounce-2 {
-  animation-name: bounce-2;
-  animation-timing-function: linear;
-  margin-bottom: 120px;
-}
-.bounce-2 .gos2 {
-  display: flex;
-  margin-left: -1200px;
-  margin-top: 120px;
-}
-.bounce-2 .gos2 li {
-  margin-left: 20px;
-  display: flex;
-}
-.bounce-2 .gos2 .tovar2 {
-  border-radius: 10px;
-  text-decoration: none;
-  background-color: #4d4d4d;
-  height: 450px;
-  width: 310px;
-}
-.bounce-2 .gos2 .tovar2 img {
-  border-radius: 10px;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-.bounce-2 .gos2 .tovar2 .Name h4 {
-  text-align: center;
-  margin-top: 10px;
-  color: #ffffff;
-}
-.bounce-2 .gos2 .tovar2 .botton p {
-  margin-top: 30px;
-  margin-left: 20px;
-  color: #ffffff;
-  font-size: 30px;
-}
-.bounce-2 .gos2 li {
-  list-style-type: none;
-  margin-left: 1270px;
-  margin-right: -1250px;
 }
 .stroka {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.stroka .setka1x2 {
+.stroka .setka1x4 {
   display: flex;
 }
-.stroka .setka1x2 li {
+.stroka .setka1x4 .setka1x2 {
+  margin-left: -40px;
+  display: flex;
+}
+.stroka .setka1x4 .setka1x2 li {
   margin-left: 20px;
   display: flex;
 }
-.stroka .setka1x2 .tovar2 {
+.stroka .setka1x4 .setka1x2 .tovar2 {
   border-radius: 10px;
   text-decoration: none;
   background-color: #4d4d4d;
   height: 450px;
   width: 310px;
 }
-.stroka .setka1x2 .tovar2 img {
+.stroka .setka1x4 .setka1x2 .tovar2 img {
   border-radius: 10px;
   margin-top: 5px;
   margin-left: 5px;
 }
-.stroka .setka1x2 .tovar2 .Name h4 {
-  text-align: center;
-  margin-top: 10px;
-  color: #ffffff;
-}
-.stroka .setka1x2 .tovar2 .botton p {
-  margin-top: 30px;
+.stroka .setka1x4 .setka1x2 .tovar2 .botton p {
+  margin-top: 90px;
   margin-left: 20px;
   color: #ffffff;
   font-size: 30px;
+}
+.stroka .setka1x4 .setka1x2 .tovar2 .Name h4 {
+  margin-top: -150px;
+  text-align: center;
+  color: #ffffff;
 }
 .section {
   margin-left: 0px;

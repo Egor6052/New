@@ -12,6 +12,14 @@ html{
     // background-color: #c9d2d3;
     //background-color: #e1f7f7;
     scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    body {
+        width: 1405px;
+        height: 2405px;
+        margin: 0;
+    } 
 }
 // Банер
 .baner {
@@ -212,26 +220,6 @@ html{
         // background-color: #94e2d8;
     }
 }
-.box {
-    margin-top: 40px;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    //background-color: #000000;
-    height: 360px;
-    margin-right: 0;
-    transform-origin: bottom;
-    width: 500px;
-}
-@keyframes bounce-1 {
-    0%   { transform: translateX(-70px); }
-    50%  { transform: translateX(30px); }
-    100% { transform: translateX(-70px); }
-}
-@keyframes bounce-2 {
-    0%   { transform: translateX(30px); }
-    50%  { transform: translateX(-70px); }
-    100% { transform: translateX(30px); }
-}
 .new {
     .name{
         background-color: rgb(29, 74, 87);
@@ -247,8 +235,59 @@ html{
             font-size: 40px;
         }
     }
-
+    .stroka {
+        
+        .setka1x4 {
+            display: flex;
+            .setka1x2 {
+                // margin-left: -40px;
+                display: flex;
+                li {
+                    margin-left: 20px;
+                    display: flex;
+                }
+                .tovar2 {
+                    border-radius: 10px;
+                    text-decoration: none;
+                    background-color: #4d4d4d;
+                    height: 450px;
+                    width: 310px;
+                    img {
+                        border-radius: 10px;
+                        margin-top: 5px;
+                        margin-left: 5px;
+                    }
+                    .botton {
+                        // background-color: #dd2626;
+                        p {
+                            //text-align: center;
+                            margin-top: 90px;
+                            margin-left: 20px;
+                            color: #ffffff;
+                            font-size: 30px;
+                        }
+                    }
+                    .Name {
+                        h4 {
+                            margin-top: -150px;
+                            text-align: center;
+                            //background-color: #a7d6f3;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// Товары на главной странице
+.stroka {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .setka1x4 {
+        display: flex;
         .setka1x2 {
+            margin-left: -40px;
             display: flex;
             li {
                 margin-left: 20px;
@@ -265,171 +304,29 @@ html{
                     margin-top: 5px;
                     margin-left: 5px;
                 }
-                .Name {
-                    h4 {
-                        text-align: center;
-                        margin-top: 10px;
-                        //background-color: #a7d6f3;
-                        color: #ffffff;
-                    }
-                    
-                }
                 .botton {
-                       // background-color: #dd2626;
+                    // background-color: #dd2626;
                     p {
                         //text-align: center;
-                        margin-top: 30px;
+                        margin-top: 90px;
                         margin-left: 20px;
                         color: #ffffff;
                         font-size: 30px;
                     }
                 }
-            }
-        }
-}
-.bounce-1 {
-    animation-name: bounce-1;
-    animation-timing-function: linear;
-.gos1 {
-    display: flex;
-    margin-left: -1200px;
-    margin-top: -890px;
-    li {
-        margin-left: 20px;
-        display: flex;
-    }
-    .tovar2 {
-        border-radius: 10px;
-        text-decoration: none;
-        background-color: #4d4d4d;
-        height: 450px;
-        width: 310px;
-        img {
-            border-radius: 10px;
-            margin-top: 5px;
-            margin-left: 5px;
-        }
-        .Name {
-            h4 {
-                text-align: center;
-                margin-top: 10px;
-                //background-color: #a7d6f3;
-                color: #ffffff;
-            }
-            
-        }
-        .botton {
-               // background-color: #dd2626;
-            p {
-                //text-align: center;
-                margin-top: 30px;
-                margin-left: 20px;
-                color: #ffffff;
-                font-size: 30px;
-            }
-        }
-    }
-
-li {
-        list-style-type: none;
-        margin-left: 1270px;
-        margin-right: -1250px;
-    }
- }
-}
-.bounce-2 {
-    animation-name: bounce-2;
-    animation-timing-function: linear;
-    margin-bottom: 120px;
-.gos2 {
-    display: flex;
-    margin-left: -1200px;
-    margin-top: 120px;
-    li {
-        margin-left: 20px;
-        display: flex;
-    }
-    .tovar2 {
-        border-radius: 10px;
-        text-decoration: none;
-        background-color: #4d4d4d;
-        height: 450px;
-        width: 310px;
-        img {
-            border-radius: 10px;
-            margin-top: 5px;
-            margin-left: 5px;
-        }
-        .Name {
-            h4 {
-                text-align: center;
-                margin-top: 10px;
-                //background-color: #a7d6f3;
-                color: #ffffff;
-            }
-            
-        }
-        .botton {
-               // background-color: #dd2626;
-            p {
-                //text-align: center;
-                margin-top: 30px;
-                margin-left: 20px;
-                color: #ffffff;
-                font-size: 30px;
-            }
-        }
-    }
-
-li {
-        list-style-type: none;
-        margin-left: 1270px;
-        margin-right: -1250px;
-    }
- }
-}
-// Товары на главной странице
-.stroka {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    .setka1x2 {
-        display: flex;
-        li {
-            margin-left: 20px;
-            display: flex;
-        }
-        .tovar2 {
-            border-radius: 10px;
-            text-decoration: none;
-            background-color: #4d4d4d;
-            height: 450px;
-            width: 310px;
-            img {
-                border-radius: 10px;
-                margin-top: 5px;
-                margin-left: 5px;
-            }
-            .Name {
-                h4 {
-                    text-align: center;
-                    margin-top: 10px;
-                    //background-color: #a7d6f3;
-                    color: #ffffff;
+                .Name {
+                    h4 {
+                        margin-top: -150px;
+                        text-align: center;
+                        //background-color: #a7d6f3;
+                        color: #ffffff;
+                    }
+                    
                 }
-                
-            }
-            .botton {
-                   // background-color: #dd2626;
-                p {
-                    //text-align: center;
-                    margin-top: 30px;
-                    margin-left: 20px;
-                    color: #ffffff;
-                    font-size: 30px;
-                }
+               
             }
         }
-    }
+}
 }
 // Разделение на категории
 .section {
@@ -678,4 +575,3 @@ li {
 
     }
 }
-
