@@ -163,7 +163,7 @@ html body {
   background-color: #1f1f1f;
 }
 .new .name {
-  background-color: #1d4a57;
+  background-color: #245c6b;
   height: 100px;
   width: 1410px;
 }
@@ -194,7 +194,7 @@ html body {
 .strokaNew .setka1x4 .setka1x2 .tovar2 {
   border-radius: 10px;
   text-decoration: none;
-  background-color: #5c5c5c;
+  background-color: #c2c2c2;
   height: 450px;
   width: 310px;
 }
@@ -207,13 +207,13 @@ html body {
   font-family: Helvetica, Arial, sans-serif;
   margin-top: 90px;
   margin-left: 20px;
-  color: #ffffff;
+  color: #000000;
   font-size: 30px;
 }
 .strokaNew .setka1x4 .setka1x2 .tovar2 .Name h4 {
   margin-top: -150px;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
 }
 .stroka {
   margin-top: 40px;
