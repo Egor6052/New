@@ -167,17 +167,17 @@
         font-size: 24px;
         margin-left: 420px;
     }
-    .dropdown-content {
-        margin-left: -55px;
+    .baner .dropdown .dropdown-content {
+        margin-left: -180px;
     }
-    .dropdown-content input {
-        font-size: 25px;
-    }
-    .dropdown-content a {
+    .baner .dropdown .dropdown-content input {
         font-size: 40px;
     }
-    .add p {
-        font-size: 20px;
+    .baner .dropdown .dropdown-content a {
+        font-size: 70px;
+    }
+    .baner .dropdown .dropdown-content .add p {
+        font-size: 40px;
         margin-left: 30px;
     }
     .section {
