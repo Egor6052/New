@@ -47,19 +47,34 @@
         margin-top: 40px;
         padding-bottom: 40px;
     }
-    .dropdown-content {
+    /*  */
+    .baner .dropdown .dropdown-content {
+        margin-left: -350px;
+    }
+    .baner .dropdown .dropdown-content input {
+        font-size: 60px;
+    }
+    .baner .dropdown .dropdown-content a {
+        font-size: 100px;
+    }
+    .baner .dropdown .dropdown-content .add p {
+        font-size: 50px;
+        margin-left: 20px;
+    }
+    /*  */
+    /* .dropdown-content {
         margin-left: -200px;
-    }
-    .dropdown-content input {
+    } */
+    /* .dropdown-content input {
         font-size: 42px;
-    }
-    .dropdown-content a {
+    } */
+    /* .dropdown-content a {
         font-size: 80px;
-    }
-    .add p {
+    } */
+    /* .add p {
         font-size: 40px;
         margin-left: 10px;
-    }
+    } */
     /* заказ сайта */
     .opis {
         padding-top: 70px;
@@ -168,17 +183,17 @@
         margin-left: 420px;
     }
     .baner .dropdown .dropdown-content {
-        margin-left: -180px;
+        /* margin-left: -180px; */
     }
     .baner .dropdown .dropdown-content input {
-        font-size: 40px;
+        font-size: 22px;
     }
     .baner .dropdown .dropdown-content a {
-        font-size: 70px;
+        font-size: 25px;
     }
     .baner .dropdown .dropdown-content .add p {
-        font-size: 40px;
-        margin-left: 30px;
+        font-size: 20px;
+        margin-left: 20px;
     }
     .section {
         height: 100px;
