@@ -182,9 +182,9 @@
         font-size: 24px;
         margin-left: 420px;
     }
-    .baner .dropdown .dropdown-content {
-        /* margin-left: -180px; */
-    }
+    /* .baner .dropdown .dropdown-content {
+        margin-left: -180px;
+    } */
     .baner .dropdown .dropdown-content input {
         font-size: 22px;
     }
