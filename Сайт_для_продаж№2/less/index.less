@@ -254,16 +254,27 @@ html{
                 background-color: #c2c2c2;
                 height: 450px;
                 width: 310px;
-                img {
+                
+                .figure {
+                    width: 300px; /* Ширина области */
+                    height: 300px; /* Высота области */
+                    margin: 0; /* Обнуляем отступы */
+                   }
+                .figure img { 
+                    width: 100%; /* Ширина изображений */
+                    height: 100%; /* Высота изображении */
+                    object-fit: cover; /* Вписываем фотографию в область */
                     border-radius: 10px;
                     margin-top: 5px;
                     margin-left: 5px;
                 }
+
                 .botton {
+                    margin-bottom: 10px;
                     // background-color: #dd2626;
                     p {
                         font-family: Helvetica, Arial, sans-serif;
-                        margin-top: 90px;
+                        margin-top: 100px;
                         margin-left: 20px;
                         color: #000000;
                         font-size: 30px;
@@ -271,6 +282,7 @@ html{
                 }
                 .Name {
                     h4 {
+                        //margin-top: -150px;
                         margin-top: -150px;
                         text-align: center;
                         //background-color: #a7d6f3;
@@ -302,11 +314,21 @@ html{
                 background-color: #4d4d4d;
                 height: 450px;
                 width: 310px;
-                img {
+                .figure {
+
+                    width: 300px; /* Ширина области */
+                    height: 300px; /* Высота области */
+                    margin: 0; /* Обнуляем отступы */
+                   }
+                .figure img { 
+                    width: 100%; /* Ширина изображений */
+                    height: 100%; /* Высота изображении */
+                    object-fit: cover; /* Вписываем фотографию в область */
                     border-radius: 10px;
                     margin-top: 5px;
                     margin-left: 5px;
                 }
+                
                 .botton {
                     // background-color: #dd2626;
                     p {
@@ -509,11 +531,11 @@ html{
     padding-bottom: 10px;
     margin-top: 40px;
     margin-left: 70px;
-    img{
-        // margin-top: -20px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-    }
+    // img{
+    //     // margin-top: -20px;
+    //     border-radius: 10px;
+    //     margin-bottom: 20px;
+    // }
     .im9{
         padding-top: 10px;
         margin-left: -40px;
@@ -521,6 +543,20 @@ html{
         li {
             margin-left: 10px;
             display: flex;
+            .figure {
+
+                width: 300px; /* Ширина области */
+                height: 300px; /* Высота области */
+                margin: 0; /* Обнуляем отступы */
+               }
+            .figure img { 
+                width: 100%; /* Ширина изображений */
+                height: 100%; /* Высота изображении */
+                object-fit: cover; /* Вписываем фотографию в область */
+                border-radius: 10px;
+                margin-top: 5px;
+                margin-left: 5px;
+            }
         }
     }
     .Name {

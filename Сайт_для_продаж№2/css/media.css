@@ -22,7 +22,18 @@
         height: 850px;
         width: 610px;
     }
-    .stroka .setka1x4 .setka1x2 .tovar2 img {
+    .stroka .setka1x4 .setka1x2 .tovar2 .figure {
+        width: 300px; /* Ширина области */
+        height: 300px; /* Высота области */
+        margin: 0; /* Обнуляем отступы */
+    }
+    .stroka .setka1x4 .setka1x2 .tovar2 .figure img {
+        width: 100%; /* Ширина изображений */
+        height: 100%; /* Высота изображении */
+        object-fit: cover; /* Вписываем фотографию в область */
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-left: 5px;
         border-radius: 30px;
         margin-top: 20px;
         margin-left: 20px;
@@ -34,7 +45,7 @@
         font-size: 60px;
     }
     .stroka .setka1x4 .setka1x2 .tovar2 .botton p {
-        margin-top: 160px;
+        margin-top: 450px;
         font-size: 70px;
     }
     /* Сетка */
@@ -110,19 +121,34 @@
         height: 850px;
         width: 610px;
     }
-    .strokaNew .setka1x4 .setka1x2 .tovar2 img {
+    .strokaNew .setka1x4 .setka1x2 .tovar2 .figure {
+        width: 300px; /* Ширина области */
+        height: 300px; /* Высота области */
+        margin: 0; /* Обнуляем отступы */
+    }
+    .strokaNew .setka1x4 .setka1x2 .tovar2 .figure img {
+        width: 100%; /* Ширина изображений */
+        height: 100%; /* Высота изображении */
+        object-fit: cover; /* Вписываем фотографию в область */
         border-radius: 30px;
         margin-top: 20px;
         margin-left: 20px;
         width: 570px;
         height: 570px;
     }
+    /* .strokaNew .setka1x4 .setka1x2 .tovar2 img {
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 570px;
+        height: 570px;
+    } */
     .strokaNew .setka1x4 .setka1x2 .tovar2 .Name h4 {
-        margin-top: -290px;
+        margin-top: -300px;
         font-size: 60px;
     }
     .strokaNew .setka1x4 .setka1x2 .tovar2 .botton p {
-        margin-top: 160px;
+        margin-top: 450px;
         font-size: 70px;
     }
     /* Секции */
