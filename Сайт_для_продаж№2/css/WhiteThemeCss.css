@@ -1,5 +1,5 @@
 html {
-  background-color: #1f1f1f;
+  background-color: #858585;
   scroll-behavior: smooth;
   width: 100%;
   height: 100%;
@@ -115,6 +115,9 @@ html body {
 .baner .dropdown1:hover .dropdown-content {
   display: block;
 }
+.baner .dropdown1:hover .dropdown-content {
+  display: block;
+}
 .baner .dropdown {
   float: left;
   overflow: hidden;
@@ -200,7 +203,7 @@ html body {
 .opis {
   width: 1410px;
   height: 130px;
-  background-color: #36584e;
+  background-color: #52a38b;
   border-radius: 5px;
 }
 .opis .opis1 h2 {
@@ -257,7 +260,7 @@ html body {
 .strokaNew .setka1x4 .setka1x2 .tovar2 {
   border-radius: 10px;
   text-decoration: none;
-  background-color: #c2c2c2;
+  background-color: #9ed8ff;
   height: 450px;
   width: 310px;
 }
@@ -314,7 +317,7 @@ html body {
 .stroka .setka1x4 .setka1x2 .tovar2 {
   border-radius: 10px;
   text-decoration: none;
-  background-color: #4d4d4d;
+  background-color: #f5f5f5;
   height: 450px;
   width: 310px;
 }
@@ -341,14 +344,14 @@ html body {
   font-family: Courier;
   margin-top: 90px;
   margin-left: 20px;
-  color: #ffffff;
+  color: #000000;
   font-size: 30px;
 }
 .stroka .setka1x4 .setka1x2 .tovar2 .Name h4 {
   font-family: "Goudy Bookletter 1911", sans-serif;
   margin-top: -140px;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   font-size: 28px;
 }
 .section {
@@ -356,7 +359,7 @@ html body {
   margin-top: 80px;
   padding-right: 1410px;
   margin-right: 1400px;
-  background-color: #1d4a57;
+  background-color: #2688a3;
 }
 .section p {
   white-space: nowrap;
@@ -379,7 +382,7 @@ html body {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 100px;
-  background-color: #35879e;
+  background-color: #4eb3cf;
 }
 .data h1 {
   white-space: nowrap;
@@ -397,7 +400,7 @@ html body {
   margin-left: -10px;
   margin-right: 80%;
   padding-bottom: 50px;
-  background-color: #2b5b7a;
+  background-color: #356f96;
 }
 .mydata p {
   font-family: Helvetica, Arial, sans-serif;
@@ -489,7 +492,7 @@ html body {
 }
 .tovar-1 {
   border-radius: 10px;
-  background-color: #4d4d4d;
+  background-color: #e4e4e4;
   width: 1250px;
   padding-bottom: 10px;
   margin-top: 40px;
@@ -530,14 +533,14 @@ html body {
 .tovar-1 .Name h4 {
   margin-left: 40px;
   font-size: 35px;
-  color: #ffffff;
+  color: #000000;
 }
 .tovar-1 .Name h6 {
   margin-top: -30px;
   margin-bottom: 10px;
   margin-left: 60px;
   font-size: 35px;
-  color: #ffffff;
+  color: #000000;
 }
 .tovar-1 .bottons {
   margin-left: 00px;
@@ -554,7 +557,7 @@ html body {
   padding: 10px 60px 10px 60px;
   background-color: #777777;
   text-decoration: none;
-  color: aliceblue;
+  color: #c5c5c5;
   font-family: Helvetica, Arial, sans-serif;
 }
 .tovar-1 .bottons li a:hover {

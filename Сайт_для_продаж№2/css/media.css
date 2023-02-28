@@ -58,7 +58,28 @@
         margin-top: 40px;
         padding-bottom: 40px;
     }
+    .baner .dropdown .dropbtn p {
+        margin-top: -50px;
+        font-size: 50px;
+    }
+
     /*  */
+    .baner .dropdown1 .dropbtn p {
+        margin-top: -50px;
+        font-size: 50px;
+    }
+    .baner .dropdown1 .dropdown-content {
+        margin-left: -350px;
+    }
+    .baner .dropdown1 .dropdown-content a {
+        font-size: 100px;
+    }
+    .baner .dropdown1 .dropdown-content a img{
+        width: 50px;
+        height: 50px;
+    }
+    /*  */
+
     .baner .dropdown .dropdown-content {
         margin-left: -350px;
     }
