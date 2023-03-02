@@ -144,8 +144,8 @@ html body .Main .content .boxes .box1x4 .box1x2 li a .figure img:hover {
   transition: 0.5s;
   width: 120%;
   height: 120%;
-  margin-left: -0.5%;
-  margin-top: -0.5%;
+  margin-left: 0%;
+  margin-top: 0%;
 }
 html body .Main .content .boxes .box1x4 .box1x2 li a .Name p {
   font-family: "Goudy Bookletter 1911", sans-serif;
