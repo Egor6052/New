@@ -1,328 +1,394 @@
-@media (max-width: 820px) {
-    .baner {
-        width: 1500px;
-        height: 150px;
+@media (max-width: 500px) {
+    .Main .baner {
+        width: 100%;
+        height: 60px;
     }
-    /* Логотип */
-    .rot {
-        width: 120px;
+    .Main .baner .wall1 a .wall2 h1 {
+        font-size: 30px;
+        margin-left: 180px;
+        margin-top: 10px;
+    }
+    /* .Main .baner .menu a {
+        font-size: 1px;
+        width: -10px;
+    } */
+
+
+    /* Сайт можно заказать тут */
+    
+
+    .Main .opis .opis1 {
+        margin-top: 60px;
+    }
+    .Main .opis .opis1 h2 {
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    .Main .opis .opis1 h3 {
+        font-size: 20px;
+        margin-left: -130px;
+        margin-top: 0px;
+    }
+    .Main .opis .opis1 h3 p {
+        font-size: 20px;
+        margin-left: -50px;
+        margin-top: 0px;
+    }
+
+    /* Категории товаров */
+
+    .Main .content  {
+        margin-left: -220px;
+        margin-top: -90px;
+    }
+
+    .Main .content .boxes .box1x4 li  {
+        margin-top: 5px;
+    }
+
+    .Main .content .boxes .box1x2 li {
+        margin-left: -10px;
+    }
+    .Main .content .boxes .box1x2 li a {
+        width: 160px;
+        height: 140px;
+        margin-left: 20px;
+    }
+    .Main .content .boxes .box1x2 li a .Name p {
+        margin-top: -50px;
+        font-size: 20px;
+    }
+      
+
+    .Main .content .boxes .box1x4 .box1x2 link  {
+        margin-left: 50px;
+     }
+
+    .figure {
+        width: 100px; /* Ширина области */
+        height: 100px; /* Высота области */
+    }
+
+    /* Читайте описание товаров */
+
+    .Main .opis {
+        margin-top: 40px;
+        width: 100%;
         height: 120px;
     }
-    /* Сетка */
-    .stroka .setka1x4 {
-        display: block;
-        margin-top: 20px;
+
+    .Main .opis .opis1 h2 {
+        font-size: 30px;
+        margin-left: 35px;
+    }
+    .Main .opis .opis1 h3 {
+        margin-left: -80px;
+        margin-top: -10px;
+    }
+    .Main .opis .opis1 h3 p {
+        font-size: large;
+        margin-left: 150px;
+    }
+
+
+    /* --------- Разделения --------- */
+
+    .Main .section p {
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* Строка Топа */
+
+    .strokaNew .setka1x4 {
+        margin-left: -95px;
+    }
+
+    .strokaNew .setka1x4 .setka1x2{
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+
+    /* --------------- Топ товары --------------- */
+    
+    .strokaNew .setka1x4 .setka1x2 .tovar2 {
+        height: 250px;
+        width: 180px;
+        margin-left: -5px;
+    }
+    .strokaNew .setka1x4 .setka1x2 .tovar2 .figure {
+        width: 170px; /* Ширина области */
+        height: 170px; /* Высота области */
+    }
+    .strokaNew .setka1x4 .setka1x2 .tovar2 .botton  p {
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .strokaNew .setka1x4 .setka1x2 .tovar2 h1 {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .strokaNew .setka1x4 .setka1x2 .tovar2 .Name h4 {
+       
+        margin-top: -70px;
+    }
+
+    /* Мои данные */
+    .mydata {
+        margin-right: 0px;
+        margin-left: -150px;
+        margin-top: -27px;
+        padding-bottom: 100px;
+    }
+    .mydata p {
+        padding-bottom: 160px;
+        padding-top: 40px;
+        margin-right: 0px;
+        padding-left: 100px;
+        margin-left: 100px;
+        font-size: 24px;
+    }
+    .mydata .prodav {
+        margin-top: -150px;
+        margin-left: 80px;
+        display: flex;
+    }
+    .mydata .prodav li {
+        margin-left: 100px;
+        display: flex;    
+    }
+
+    /* Товары в отдельных окнах */
+    .stroka {
+        margin-bottom: 0px;
+        margin-top: 10px;
+        margin-left: -40px;
+    }
+    .stroka .setka1x4  {
+        margin-top: 10px;
+        margin-top: 10px;
     }
     .stroka .setka1x4 .setka1x2 {
-        margin-top: 20px;
+        margin-top: 10px;
     }
-    .stroka .setka1x4 .setka1x2 .tovar2 {
-        margin-left: 20px;
-        border-radius: 30px;
-        height: 850px;
-        width: 610px;
-    }
-    .stroka .setka1x4 .setka1x2 .tovar2 .figure {
-        width: 300px; /* Ширина области */
-        height: 300px; /* Высота области */
-        margin: 0; /* Обнуляем отступы */
-    }
-    .stroka .setka1x4 .setka1x2 .tovar2 .figure img {
-        width: 100%; /* Ширина изображений */
-        height: 100%; /* Высота изображении */
-        object-fit: cover; /* Вписываем фотографию в область */
-        border-radius: 10px;
-        margin-top: 5px;
-        margin-left: 5px;
-        border-radius: 30px;
-        margin-top: 20px;
-        margin-left: 20px;
-        width: 570px;
-        height: 570px;
-    }
-    .stroka .setka1x4 .setka1x2 .tovar2 .Name h4 {
-        margin-top: -290px;
-        font-size: 60px;
-    }
-    .stroka .setka1x4 .setka1x2 .tovar2 .botton p {
-        margin-top: 450px;
-        font-size: 70px;
-    }
-    /* Сетка */
-    /* Барахолка */
-    .wall2 {
-        margin-right: -250px;
-        font-size: 40px;
-    }
-    .dropbtn {
-        margin-top: 40px;
-        padding-bottom: 40px;
-    }
-    .baner .dropdown .dropbtn p {
-        margin-top: -50px;
-        font-size: 50px;
-    }
-
-    /*  */
-    .baner .dropdown1 .dropbtn p {
-        margin-top: -50px;
-        font-size: 50px;
-    }
-    .baner .dropdown1 .dropdown-content {
-        margin-left: -350px;
-    }
-    .baner .dropdown1 .dropdown-content a {
-        font-size: 100px;
-    }
-    .baner .dropdown1 .dropdown-content a img{
-        width: 50px;
-        height: 50px;
-    }
-    /*  */
-
-    .baner .dropdown .dropdown-content {
-        margin-left: -350px;
-    }
-    .baner .dropdown .dropdown-content input {
-        font-size: 60px;
-    }
-    .baner .dropdown .dropdown-content a {
-        font-size: 100px;
-    }
-    .baner .dropdown .dropdown-content .add p {
-        font-size: 50px;
-        margin-left: 20px;
-    }
-    /*  */
-    /* .dropdown-content {
-        margin-left: -200px;
-    } */
-    /* .dropdown-content input {
-        font-size: 42px;
-    } */
-    /* .dropdown-content a {
-        font-size: 80px;
-    } */
-    /* .add p {
-        font-size: 40px;
-        margin-left: 10px;
-    } */
-    /* заказ сайта */
-    .opis {
-        padding-top: 70px;
-        width: 1410px;
+    .stroka .setka1x4 .setka1x2 li .tovar2 {
+        margin-left: -10px;
         height: 300px;
+        width: 180px;
     }
-    .opis1 h2 {
-        font-size: 60px;
-        margin-left: 400px;
+    
+    .stroka .setka1x4 .setka1x2 li .tovar2 .figure {
+        width: 170px; /* Ширина области */
+        height: 170px; /* Высота области */
     }
-    .opis1 h3 {
-        font-size: 50px;
-        margin-left: 8px;
+
+    .stroka .setka1x4 .setka1x2 li .tovar2 .Name h4 {
+        margin-top: -120px;
+        font-size: 19px;
     }
-    /* Новые товары */
-    .new .name {
+    .stroka .setka1x4 .setka1x2 li .tovar2 .botton p {
+        margin-top: 80px;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* *********************************** */
+
+@media (min-width: 500px) {
+
+        /* Категории товаров */
+
+    .Main .content .boxes .box1x4 {
+        display: flex;
+    }
+    .Main .content .boxes .box1x2 li {
+        margin-left: -15px;
+    }
+    .Main .content .boxes .box1x2 li a {
+        width: 260px;
+        height: 240px;
+        margin-left: 20px;
+    }
+    .Main .content .boxes .box1x2 li a .Name p {
+        margin-top: -100px;
+        font-size: 28px;
+    }
+        
+
+    .Main .content .boxes .box1x4 .box1x2 link  {
+        margin-left: 5px;
+    }
+
+    .figure {
+        width: 200px; /* Ширина области */
+        height: 200px; /* Высота области */
+    }
+
+    /* Читайте описание товаров */
+    .Main .opis {
+        margin-top: -30px;
+        width: 100%;
         height: 130px;
     }
-    .new .name p {
-        font-size: 80px;
+    .Main .opis .opis1 h2 {
+        font-size: 30px;
+        margin-left: 600px;
     }
-    /* Новые товары  */
+    .Main .opis .opis1 h3 {
+        font-size: 24px;
+        margin-left: 420px;
+        margin-top: -10px;
+    }
+    .Main .opis .opis1 h3 p {
+        margin-left: 150px;
+    }
+
+    /* --------- Разделения --------- */
+
+    .Main .section p {
+        margin-bottom: 0px;
+        font-size: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    /* Строка Топа */
+
+    .strokaNew {
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-bottom: -10px;
+    }
     .strokaNew .setka1x4 {
-        display: block;
-        margin-top: 20px;
+        list-style-type: none;
+        display: flex;
     }
-    .strokaNew .setka1x4 .setka1x2 {
-        margin-top: 20px;
-    }
+
+/* --------------- Топ товары --------------- */
+
     .strokaNew .setka1x4 .setka1x2 .tovar2 {
-        margin-left: 20px;
-        border-radius: 30px;
-        height: 850px;
-        width: 610px;
+        height: 450px;
+        width: 310px;
     }
     .strokaNew .setka1x4 .setka1x2 .tovar2 .figure {
         width: 300px; /* Ширина области */
         height: 300px; /* Высота области */
-        margin: 0; /* Обнуляем отступы */
     }
-    .strokaNew .setka1x4 .setka1x2 .tovar2 .figure img {
-        width: 100%; /* Ширина изображений */
-        height: 100%; /* Высота изображении */
-        object-fit: cover; /* Вписываем фотографию в область */
-        border-radius: 30px;
-        margin-top: 20px;
+    .strokaNew .setka1x4 .setka1x2 .tovar2 .botton  p {
+        margin-top: 100px;
         margin-left: 20px;
-        width: 570px;
-        height: 570px;
+        font-size: 30px;
     }
-    /* .strokaNew .setka1x4 .setka1x2 .tovar2 img {
-        border-radius: 30px;
-        margin-top: 20px;
-        margin-left: 20px;
-        width: 570px;
-        height: 570px;
-    } */
+    .strokaNew .setka1x4 .setka1x2 .tovar2 h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
     .strokaNew .setka1x4 .setka1x2 .tovar2 .Name h4 {
-        margin-top: -300px;
-        font-size: 60px;
+        font-size: 30px;
+        margin-top: -150px;
     }
-    .strokaNew .setka1x4 .setka1x2 .tovar2 .botton p {
-        margin-top: 450px;
-        font-size: 70px;
-    }
-    /* Секции */
-    .section {
-        height: 150px;
-    }
-    .section p {
-        font-size: 80px;
-    }
-    /* Товары */
-    /* Данные для покупки */
-    .data h1 {
-        font-size: 100px;
-    }
+
+    /* Мои данные */
     .mydata {
-        width: 1430px;
-        height: 2100px;
+        margin-left: -150px;
+        margin-top: -27px;
+        padding-bottom: 100px;
     }
     .mydata p {
-        margin-top: 50px;
-        font-size: 80px;
-        margin-right: 50px;
-    }
-    .telegram {
-        width: 500px;
-        height: 70px;
-        font-size: 40px;
-    }
-    .telegram img {
-        width: 40px;
-        height: 40px;
-    }
-    .gmail {
-        width: 500px;
-        height: 70px;
-        font-size: 40px;
-    }
-    .gmail img {
-        width: 40px;
-        height: 40px;
-    }
-}
-
-@media (min-width: 820px) {
-    .wall2 {
-        margin-right: 128px;
-    }
-    .rot {
-        width: 60px;
-        height: 60px;
-    }
-    .opis1 h2 {
-        font-size: 30px;
-        margin-left: 600px;
-    }
-    .opis1 h3 {
+        padding-bottom: 160px;
+        padding-top: 40px;
+        margin-right: -170px;
+        padding-left: 100px;
+        margin-left: 100px;
         font-size: 24px;
-        margin-left: 420px;
     }
-    /* .baner .dropdown .dropdown-content {
-        margin-left: -180px;
-    } */
-    .baner .dropdown .dropdown-content input {
-        font-size: 22px;
+    .mydata .prodav {
+        margin-top: -150px;
+        margin-left: 640px;
+        display: flex;
     }
-    .baner .dropdown .dropdown-content a {
-        font-size: 25px;
+    .mydata .prodav li {
+        margin-left: 100px;
+        display: flex;    
     }
-    .baner .dropdown .dropdown-content .add p {
-        font-size: 20px;
-        margin-left: 20px;
+    
+
+    /* Товары в отдельных окнах */
+
+    .stroka {
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
-    .section {
-        height: 100px;
+
+    .stroka .setka1x4 {
+        display: flex;
     }
-    .section p {
-        font-size: 40px;
-    }
-    .Name {
-        font-size: 35px;
-        height: 50px;
-    }
-    .bottons {
-        margin-left: 80px;
-    }
-    .bottons a {
-        font-size: 30px;
-        padding: 10px 60px 10px 60px;
-    }
-    .bottons a img {
-        width: 20px;
-        height: 20px;
-    }
-    .opis9 p {
-        width: 1070px;
-        font-size: 20px;
-    }
-    .second img {
-        width: 250px;
-        height: 250px;
-    }
-    .second a {
-        padding: 10px 30px 10px 30px;
-        font-size: 20px;
-        margin-left: 70px;
-    }
-    .second p {
-        font-size: 26px;
-        height: 30px;
-    }
-    .data h1 {
-        font-size: 40px;
-    }
-    .mydata {
-        width: 1430px;
+
+    .stroka .setka1x4 .setka1x2 li .tovar2 {
         height: 450px;
+        width: 310px;
     }
-    .mydata p {
-        font-size: 26px;
-    }
-    .telegram {
-        width: 300px;
-        height: 50px;
-        font-size: 20px;
-    }
-    .telegram img {
-        width: 20px;
-        height: 20px;
-    }
-    .gmail {
-        width: 220px;
-        height: 50px;
-        font-size: 20px;
-    }
-    .gmail img {
-        width: 20px;
-        height: 20px;
-    }
-}
 
-@media (max-width: 350px) {
-    .wall2 {
-        margin-right: -350px;
+    .stroka .setka1x4 .setka1x2 li .tovar2 .figure {
+        width: 300px; /* Ширина области */
+        height: 300px; /* Высота области */
     }
-}
 
-@media (max-width: 250px) {
-    .rot {
-        width: 80px;
-        height: 80px;
+    .stroka .setka1x4 .setka1x2 li .tovar2 .Name h4 {
+        margin-top: -140px;
+        font-size: 28px;
     }
-    .wall2 {
+    .stroka .setka1x4 .setka1x2 li .tovar2 .botton p {
+        margin-top: 90px;
+        margin-left: 20px;
         font-size: 30px;
-        margin-right: -700px;
     }
+
 }

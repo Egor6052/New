@@ -1,0 +1,395 @@
+// out: ../css/Main.css
+
+html {
+    background-color: #1f1f1f;
+    scroll-behavior: smooth;
+    body {
+        
+      .Main {
+            position: relative;
+            overflow-x: hidden;
+
+        // Банер / шапка сайта
+        .baner {
+                z-index: 2;
+                background-color: rgb(6, 125, 155);
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                display: flex;
+
+                .menu {
+                    position: fixed;
+                    left: 0px;
+                    top: 0px;
+                    width: 250px;
+                    height: 1000px;
+                    display: flex;
+                    align-items: center;
+                    background-color: #4e4e4e;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    transition: 0.5s; //скорость анимации бокового меню;
+                    margin-left: -250px;
+                    &:hover {
+                        margin-left: 0px;
+                    }
+        
+                    .menu-btn {
+                        width: 150px;
+                        height: 60px;
+                        background-color: #df5656;
+                        position: absolute;
+                        right: -150px;
+                        top: 0px;
+                        text-decoration: none;
+                        p {
+                            color: #fff;
+                            font-size: 25px;
+                            margin-left: 50px;
+                            margin-top: 10px;
+                        }
+                    }
+                    .menu-lists {
+                        margin-top: -650px;
+                        background-color: #4e4e4e;
+                        z-index: 1;
+                        .back {
+                            background-color: #e27878;
+
+                        }
+                        a {
+                            white-space: nowrap;
+                            // float: none;
+                            color: rgb(255, 255, 255);
+                            padding: 12px 25px;
+                            text-decoration: none;
+                            display: block;
+                            text-align: left;
+                            font-size: 30px;
+                            &:hover {
+                                background-color: #5f918a;
+                            }
+                        }
+                    }
+                }
+        .wall1 a {
+            text-decoration: none;
+        }
+            .wall2 h1 {
+                white-space: nowrap;
+                text-decoration: none;
+                margin-top: 17px;
+                margin-bottom: 6px;
+                margin-left: 1200px;
+                color: #fff;
+            }
+        }
+        // "Читайте описание товаров"
+        .opis {
+            // margin-top: -30px;
+            // width: 100%;
+            // height: 130px;
+            background-color: #36584e;
+            border-radius: 5px;
+            .opis1 {
+            h2 {
+                white-space: nowrap;
+                font-family: "Goudy Bookletter 1911", sans-serif;
+                // font-size: 30px;
+                // margin-left: 600px;
+                padding-top: 20px;
+                margin-top: 80px;
+                color: #ffffff
+            }
+            h3 {
+                white-space: nowrap;
+                font-family: "Goudy Bookletter 1911", sans-serif;
+                // font-size: 24px;
+                //margin-left: 420px;
+                margin-top: -10px;
+                color: rgb(255, 255, 255);
+                p {
+                    // margin-left: 150px;
+                    a {
+                        border-radius: 5px;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        background-color: #ffffff;
+                        color: #d72020;
+                        &:hover {
+                            background-color:#848484;
+                        }
+
+                    }
+                }
+            }
+        }
+        }
+        // Категории товаров
+        .content {
+            .boxes {
+            margin-top: 100px;
+            .box1x4 {
+                margin-top: -10px;
+                margin-left: 200px;
+                list-style-type: none;
+                // display: flex;
+                .box1x2 {
+                    margin-left: -40px;
+                    display: flex;
+                    li {
+                        list-style-type: none;
+                        // margin-left: -15px;
+                        display: flex;
+                        a {
+                            border-radius: 15px;
+                            font-family: Helvetica, Arial, sans-serif;
+                            text-decoration: none;
+                            background-color: #c2c2c2;
+                            // width: 260px;
+                            // height: 240px;
+                            // margin-left: 20px;
+                            .figure {
+                                // width: 200px; /* Ширина области */
+                                // height: 200px; /* Высота области */
+                                margin: 0; /* Обнуляем отступы */
+                               }
+                            .figure img { 
+                                width: 100%; /* Ширина изображений */
+                                height: 100%; /* Высота изображении */
+                                object-fit: cover; /* Вписываем фотографию в область */
+                                border-radius: 10px;
+                                margin-top: 20px;
+                                margin-left: 30px;
+                                opacity: 20%;
+                            }
+                            .Name {
+                                p {
+                                    font-family: "Goudy Bookletter 1911", sans-serif;
+                                    // margin-top: -100px;
+                                    text-align: center;
+                                    color: #000000;
+                                    // font-size: 28px;
+                                }
+                                
+                            }
+                            &:hover {
+                                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                background-color: #848484;
+                            }
+                        }
+                    }
+                    
+                    
+                }
+            }
+        }
+        }
+        // Разделение на категории
+        .section {
+            // margin-left: 0px;
+            // margin-top: 80px;
+            // padding-right: 100%;
+            // margin-right: 1400px;
+            background-color: rgb(29, 74, 87);
+                p {
+                    white-space: nowrap;
+                    position: relative;
+                    top: 25%;
+                    margin-left: 50px;
+                    color: #fff;
+                    // font-size: 40px;
+                    font-family: Helvetica, Arial, sans-serif;
+                    
+                }
+                
+        }
+        // Топ товары
+        .strokaNew {
+            margin-left: 50px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            .setka1x4 {
+                list-style-type: none;
+                // display: flex;
+                .setka1x2 {
+                    margin-left: -40px;
+                    display: flex;
+                    li {
+                        margin-left: 20px;
+                        display: flex;
+                    }
+                    .tovar2 {
+                        h1 {
+                            color: #000000;
+                            text-decoration: none;
+                            position: absolute;
+                            // padding-left: 20px;
+                            // padding-right: 20px;
+                            // padding-top: 2px;
+                            // padding-bottom: 2px;
+                            // margin-left: 0px;
+                            // margin-top: 0px;
+                            background-color: rgb(30, 232, 148);
+                        }
+                        border-radius: 10px;
+                        text-decoration: none;
+                        // background-color: #c2c2c2;
+                        // background-color: #74c4b9;
+                        background-color: #74c4b9;
+                        // height: 450px;
+                        // width: 310px;
+                        
+                        .figure {
+                            // width: 300px; /* Ширина области */
+                            // height: 300px; /* Высота области */
+                            margin: 0; /* Обнуляем отступы */
+                           }
+                        .figure img { 
+                            width: 100%; /* Ширина изображений */
+                            height: 100%; /* Высота изображении */
+                            object-fit: cover; /* Вписываем фотографию в область */
+                            border-radius: 10px;
+                            margin-top: 5px;
+                            margin-left: 5px;
+                            &:hover {
+                                //    background-color: #6b6b6b;
+                                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                }   
+                        }
+        
+                        .botton {
+                            margin-bottom: 10px;
+                            // background-color: #dd2626;
+                            p {
+                                font-family: Helvetica, Arial, sans-serif;
+                                // margin-top: 100px;
+                                // margin-left: 20px;
+                                color: #000000;
+                                // font-size: 30px;
+                            }
+                        }
+                        .Name {
+                            h4 {
+                                font-family: "myFont", "Bitstream Vera Serif", serif;
+                                //margin-top: -150px;
+                                // margin-top: -160px;
+                                text-align: center;
+                                //background-color: #a7d6f3;
+                                color: #1c1c1c;
+                            }
+                            
+                        }
+                        &:hover {
+                        //    background-color: #6b6b6b;
+                            background-color: #608dbb;
+                        }   
+                    }
+                }
+        }
+        }
+        //контакты автора
+        .avtor {
+            background-color: #448ec0;
+            margin-top: 0px;
+            margin-left: 0px;
+            //margin-right: 50%;      
+            padding-bottom: 50px;
+            padding-top: 50px;
+            p {
+               
+                text-align: center;
+                font-family: Helvetica, Arial, sans-serif;
+                color: #ffffff;
+                font-size: 30px;
+                font-weight: bold;
+                margin-left: 20px;
+            }
+        }
+        // Контактныее данные
+        .mydata {
+            p {
+                font-family: Helvetica, Arial, sans-serif;
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                background-color: #2b5b7a;
+
+            }
+            .prodav {        
+                .telegram {
+                    margin-right: -200px;
+                    text-decoration: none;
+                    margin-left: 10px;
+                    }
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+        }
+        // Товары по категориям (НЕ ГЛАВНАЯ)
+        .stroka {
+            // margin-top: 40px;
+            // margin-bottom: 40px;
+                .setka1x4 {
+                    list-style-type: none;
+                    // display: flex;
+                        .setka1x2 {
+                            margin-left: -40px;
+                            display: flex;
+                            li {
+                                margin-left: 20px;
+                                display: flex;
+                            }
+                            .tovar2 {
+                                border-radius: 10px;
+                                text-decoration: none;
+                                background-color: #4d4d4d;
+                                // height: 450px;
+                                // width: 310px;
+                                .figure {
+                                    // width: 300px; /* Ширина области */
+                                    // height: 300px; /* Высота области */
+                                    margin: 0; /* Обнуляем отступы */
+                                }
+                                .figure img { 
+                                    width: 100%; /* Ширина изображений */
+                                    height: 100%; /* Высота изображении */
+                                    object-fit: cover; /* Вписываем фотографию в область */
+                                    border-radius: 10px;
+                                    margin-top: 5px;
+                                    margin-left: 5px;
+                                }
+                                
+                                .botton {
+                                    // background-color: #dd2626;
+                                    p {
+                                        font-family: Courier;
+                                        // margin-top: 90px;
+                                        // margin-left: 20px;
+                                        color: #ffffff;
+                                        // font-size: 30px;
+                                    }
+                                }
+                                .Name {
+                                    h4 {
+                                        font-family: "Goudy Bookletter 1911", sans-serif;
+                                        // margin-top: -140px;
+                                        text-align: center;
+                                        //background-color: #a7d6f3;
+                                        color: #ffffff;
+                                        // font-size: 28px;
+                                    }
+                                    
+                                }
+                            
+                            }
+                        }
+                }
+        }
+    }
+  }  
+}

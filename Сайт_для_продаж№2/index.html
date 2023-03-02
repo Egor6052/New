@@ -4,697 +4,283 @@
 <head>
     <meta charset="UTF-8">
     <title>Flea Market!</title>
-    <!-- Bootstrap -->
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
 
 
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/Main.css">
     <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.8/fullpage.min.css">
+    <!-- <link rel="stylesheet" href="js/index.js"> -->
+    <!-- <script src="js/index.js"></script> -->
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/index.js"></script>
-
-    <meta name="description" content="На этом сайте можно купить б/у технику! Сайт для покупки товаров.">
-    <meta name="keywords" content="Виртуальная барахолка, купить телефон, мой сайт, купить видеокарту, купить в Одессе, Одесская барахолка, купить, купить в Одессе, купить телефон б/у, купить телефон б/у в Одессе, Flea Market!">
-    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1374/1374072.png" type="image/x-icon">
 </head>
 
 <body>
-    <!-- -------------------------- Шапка -------------------------- -->
-
-
+    <div class="Main">
+        <!-- -------------------------- Шапка -------------------------- -->
     <div class="baner">
-        <div class="wall">
-            <a href="#wall">
-                <img class="rot" src="icons/sale.png">
-            </a>
+        <div class="menu">
+            <a href="#" class="menu-btn">
+                <p># Меню</p></a>
+            <div class="menu-lists">
+                <a href="#">Главная</a>
+                <a href="#Avtor">Контакты</a>
+                <a href="Empty.html">Оставить отзыв</a>
+            </div>
         </div>
+        
         <div class="wall1">
-            <a href="#wall">
+            <a href="#">
                 <div class="wall2">
                     <h1>Flea Market!</h1>
                 </div>
             </a>
         </div>
-
-<!-- ---------- Смена темы ---------- -->
-
-        <div class="dropdown1">
-            <button class="dropbtn">
-                <img src="icons/9566938.png" width="30px" height="30px"><p>Тема</p>
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content"> 
-                <a href="#"><img src="icons/7170835.png" width="20px" height="20px">Морская волна</a>
-                <a href="WhiteTheme.html"><img src="icons/7613822.png" width="20px" height="20px">Светлая</a>
-                <a href="DarkTheme.html"><img src="icons/7613822.png" width="20px" height="20px">Темная</a>
-                
-                
-            </div>
-        </div>
-
-
-        <!-- <div class="halloween">
-            <ul>
-                <li> <img src="icons/3504629.png" width="60px" height="60px"> </li>
-                <li> <img src="icons/3504629.png" width="60px" height="60px"> </li>
-                <li> <img src="icons/3504629.png" width="60px" height="60px"> </li>
-                <li> <img src="icons/3504629.png" width="60px" height="60px"> </li>
-                <li> <img src="icons/3504629.png" width="60px" height="60px"> </li>
-                <li> <img src="icons/3504629.png" width="60px" height="60px"> </li>
-            </ul>
-        </div> -->
-        <!-- dropdown -->
-        <div class="dropdown">
-            <button class="dropbtn">
-                <img src="icons/56763.png" width="30px" height="30px"><p>Меню</p>
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <input type="text" placeholder="Пошук" id="myInput" onkeyup="filterFunction()">
-                <a href="#wall">Головна</a>
-                <a href="#work">Телефони</a>
-                <a href="#questionable">Комп'ютери<br>та Запчастини</a>
-                <a href="#spare">Інше</a>
-                <a href="#data">Контакти</a>
-                <div class="add">
-                    <p>Тут могла бути ваша реклама..</p>
-                </div>
-            </div>
-        </div>
-
-        <script>
-            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
-            function myFunction() {
-                document.getElementById("myDropdown").classList.toggle("show");
-            }
-
-            function filterFunction() {
-                var input, filter, ul, li, a, i;
-                input = document.getElementById("myInput");
-                filter = input.value.toUpperCase();
-                div = document.getElementById("myDropdown");
-                a = div.getElementsByTagName("a");
-                for (i = 0; i < a.length; i++) {
-                    if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
-                        a[i].style.display = "";
-                    } else {
-                        a[i].style.display = "none";
-                    }
-                }
-            }
-        </script>
-
-        <!-- dropdown -->
     </div>
-
     <!-- -------------------------- Главная -------------------------- -->
-    <!----на головну---->
-    <div class="gol" id="wall">
-        <img src="icons/892634.png" width="40px" height="40px"></imgsrc>
+        
+
+<div class="opis">
+    <div class="opis1">
+        <h2>Читайте опис товарів!</h2>
+        <h3>
+        <p>Сайт можна замовити --> <a href="https://t.me/Segor5">тут</a></p>
+        </h3>
     </div>
-    <!----на головну---->
+</div>
 
-    <div class="opis">
-        <div class="opis1">
-            <h2>Читайте опис товарів!</h2>
-            <h3>
-                <li>Сайт можна замовити за Gmail: es2702849@gmail.com</li>
-            </h3>
-        </div>
-    </div>
 
-    <!-- -------------------------- Новое -------------------------- -->
-    <div class="new">
-        <div class="name">
-            <p>Нові товари</p>
-        </div>
-    </div>
-
-    <!--  -->
-    <div class="strokaNew">
-        <ul class="setka1x4">
-            <li>
-                <ul class="setka1x2">
+<div class="content">
+            <div class="boxes">
+                <ul class="box1x4">
                     <li>
-                        <a class="tovar2" href="index20.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/original_fe361c8a-a141.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>200 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Колонка JBL Charge 2+</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- ---------- -->
-                    <li>
-                        <a class="tovar2" href="index4.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/photo_5256081157966119625_y.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>400 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Nexus 5X</h4>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <!-- ---------- -->
-                <ul class="setka1x2">
-                    <li>
-                        <a class="tovar2" href="index1.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/IMG_6222.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>350 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Bravis A509 Jeans</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- ---------- -->
-                    <li>
-                        <a class="tovar2" href="index22.html">
-                            <div class="figure">
-                                <img src="imgs/Товары/photo_5470134670072072126_y.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>500 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Монитор FLATRON L1800P</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- ---------- -->
-                </ul>
-            </li>
-        </ul>
-    </div>
-
-
-    <!-- --------------------------  Телефони --------------------------  -->
-
-    <div class="section" id="work">
-        <p>Телефони</p>
-        <!-- <div class="holiday"> -->
-
-    </div>
-    <!-- --------- Test --------- -->
-
-    <div class="stroka">
-        <ul class="setka1x4">
-            <li>
-                <ul class="setka1x2">
-                    <li>
-                        <a class="tovar2" href="index1.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/IMG_6222.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>350 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Bravis A509 Jeans</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- ---------- -->
-                    <li>
-                        <a class="tovar2" href="index10.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/PXL_20220801_110936793.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>50 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>AHTC Rhyme (PL46100)</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- <li>
-                        <a class="tovar2" href="index8.html">
-                            <img src="imgs/Товары/IMG_6214.JPG" >
-
-                            <div class="botton">
-                                <p>40 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Samsung SGH-A800</h4>
-                            </div>
-                        </a>
-                    </li> -->
-                    <!-- <li>
-                        <a class="tovar2" href="index2.html">
-                            <img src="imgs/Товары/IMG_5446.JPG" >
-
-                            <div class="botton">
-                                <p>4400 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>iPhone Xr</h4>
-                            </div>
-                        </a>
-                    </li> -->
-                </ul>
-            </li>
-            <!-- ---------- -->
-            <li>
-                <ul class="setka1x2">
-                    <li>
-                        <a class="tovar2" href="index4.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/photo_5256081157966119625_y.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>400 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Nexus 5X</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- ---------- -->
-                    <li>
-                        <a class="tovar2" href="index5.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/IMG_4685.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>50 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Nokia 3100</h4>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <!---------------------------------------------------- -->
-        <ul class="setka1x4">
-            <li>
-                <ul class="setka1x2">
-                    <!-- <li>
-                        <a class="tovar2" href="index5.html">
-                            <img src="imgs/Товары/IMG_4685.JPG" >
-
-                            <div class="botton">
-                                <p>50 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Nokia 3100</h4>
-                            </div>
-                        </a>
-                    </li> -->
-                    <li>
-                        <a class="tovar2" href="index6.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/IMG_4658.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>50 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Amena AlCATEL One Touch 311</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- ---------- -->
-                    <li>
-                        <a class="tovar2" href="index7.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/IMG_4676.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>50 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Siemens A75</h4>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <!-- ---------- -->
-            <li>
-                <ul class="setka1x2">
-                    <!-- <li>
-                        <a class="tovar2" href="index7.html">
-                            <img src="imgs/Товары/IMG_4676.JPG" width="300px" height="300px">
-
-                            <div class="botton">
-                                <p>50 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Siemens A75</h4>
-                            </div>
-                        </a>
-                    </li> -->
-                    <!-- ---------- -->
-                    <li>
-                        <ul class="setka1x2">
+                        <ul class="box1x2">
                             <li>
-                                <a class="tovar2" href="index9.html">
+                                <a class="link" href="Phones.html">
                                     <div class="figure">
-                                    <img src="imgs/Товары/PXL_20220801_110449688.jpg" >
-                                    </div>
-                                    <div class="botton">
-                                        <p>50 грн</p>
+                                        <img src="icons/8897688.png" >
                                     </div>
                                     <div class="Name">
-                                        <h4>HTC Droid Incredible</h4>
+                                        <p>Телефоны</p>
                                     </div>
                                 </a>
+                            </li>
+                            <!-- ---------- -->
+                            <li>
+                                <a class="link" href="Computers.html">
+                                    <div class="figure">
+                                        <img src="icons/6380403.png" >
+                                    </div>
+                                    <div class="Name">
+                                        <p>Компьютеры / запчасти</p>
+                                    </div>
+                                </a>                            
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="box1x2">
+                            <li>
+                                <a class="link" href="Headphones.html">
+                                    <div class="figure">
+                                        <img src="icons/27130.png" >
+                                    </div>
+                                    <div class="Name">
+                                        <p>Наушники / Колонки</p>
+                                    </div>
+                                </a>                             
+                            </li>
+                            <!-- ---------- -->
+                            <li>
+                                <a class="link" href="Empty.html">
+                                    <div class="figure">
+                                        <img src="icons/25466.png" >
+                                    </div>
+                                    <div class="Name">
+                                        <p>Планшеты</p>
+                                    </div>
+                                </a>                             
                             </li>
                         </ul>
                     </li>
                 </ul>
-                <!---------------------------------------------------- -->
-                <ul class="setka1x4">
-
-                    <!-- ---------- -->
-
-                </ul>
-            </li>
-            <!-- ---------- -->
-
-        </ul>
-
-    </div>
-
-
-
-
-    <!-- -------------------------- Комп'ютери / Комп. запчастини -------------------------- -->
-
-    <div class="section" id="questionable">
-        <p>Комп'ютери / Комп. запчастини</p>
-    </div>
-
-
-
-
-    <div class="stroka">
-        <ul class="setka1x4">
-            <li>
-                <ul class="setka1x2">
+                <ul class="box1x4">
                     <li>
-                        <a class="tovar2" href="index11.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/photo_5341411523798615040_y.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>100 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Материнка K9N6PGM2-V</h4>
-                            </div>
-                        </a>
+                        <ul class="box1x2">
+                            <li>
+                                <a class="link" href="Computers.html">
+                                    <div class="figure">
+                                        <img src="icons/1189518.png" >
+                                    </div>
+                                    <div class="Name">
+                                        <p>Запчасти для ПК</p>
+                                    </div>
+                                </a>                               
+                            </li>
+                            <!-- ---------- -->
+                            <li>
+                                <a class="link" href="Empty.html">
+                                    <div class="figure">
+                                        <img src="icons/5232007.png" >
+                                    </div>
+                                    <div class="Name">
+                                        <p>Запчасти для транспорта</p>
+                                    </div>
+                                </a>                               
+                            </li>
+                        </ul>
                     </li>
-                    <!-- ---------- -->
                     <li>
-                        <a class="tovar2" href="index12.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/photo5298666669239025192.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>100 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Материнка GIGABYTE</h4>
-                            </div>
-                        </a>
+                        <ul class="box1x2">
+                            <li>
+                                <a class="link" href="Empty.html">
+                                    <div class="figure">
+                                        <img src="icons/25694.png" >
+                                    </div>
+                                    <div class="Name">
+                                        <p>Товары для дома</p>
+                                    </div>
+                                </a>                               
+                            </li>
+                            <!-- ---------- -->
+                            <li>
+                                <a class="link" href="Others.html">
+                                    <div class="figure">
+                                        <img src="icons/7764274.png" >
+                                    </div>
+                                    <div class="Name">
+                                        <p>Просмотреть всё</p>
+                                    </div>
+                                </a>                               
+                            </li>
+                        </ul>
                     </li>
                 </ul>
-            </li>
-            <!-- ---------- -->
-            <li>
-                <ul class="setka1x2">
-                    <li>
-                        <a class="tovar2" href="index13.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/photo5280990890246127781.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>100 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Материнская плата ASUS</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- ---------- -->
-                    <li>
-                        <a class="tovar2" href="index14.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/photo5280990890246127783.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>100 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Материнская плата Intel</h4>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <!-- ---------------------------------------- -->
-        <ul class="setka1x4">
-            <li>
-                <ul class="setka1x2">
-                    <li>
-                        <a class="tovar2" href="index21.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/image.webp" >
-                            </div>
-                            <div class="botton">
-                                <p>100 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Монитор LG 773N</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="tovar2" href="index22.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/photo_5470134670072072126_y.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>500 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Монитор FLATRON L1800P</h4>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <!-- ---------- -->
-            <li>
-                <ul class="setka1x2">
-                    <li>
-                        <a class="tovar2" href="index15.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/photo_2022-09-15 11.31.01.jpeg" >
-                            </div>
-                            <div class="botton">
-                                <p>50 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Вiдеокарта NVIDIA GeForce 2</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- ---------- -->
-                    <li>
-                        <a class="tovar2" href="index16.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/photo_2022-09-15 11.31.18.jpeg" >
-                            </div>
-                            <div class="botton">
-                                <p>50 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Вiдеокарта NVIDIA GeForce 4</h4>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-<!-- -------------------------------- -->
-        <ul class="setka1x4">
-            <li>
-                <ul class="setka1x2">
-                    <li>
-                        <a class="tovar2" href="index17.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/photo_2022-09-15 12.23.08.jpeg" >
-                            </div>
-                            <div class="botton">
-                                <p>30 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Модем для ПК HUAWEI</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- <li>
-                        <a class="tovar2" href="index17.html">
-                            <div class="figure">
-                            <img src="" >
-                            </div>
-                            <div class="botton">
-                                <p>30 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Модем для ПК HUAWEI</h4>
-                            </div>
-                        </a>
-                    </li> -->
-                </ul>
-            </li>
-            <!-- ---------- -->
-            <li>
-                <ul class="setka1x2">
-                    <!-- <li>
-                        <a class="tovar2" href="index15.html">
-                            <div class="figure">
-                            <img src="" >
-                            </div>
-                            <div class="botton">
-                                <p>50 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Вiдеокарта NVIDIA GeForce 2</h4>
-                            </div>
-                        </a>
-                    </li> -->
-                    <!-- ---------- -->
-                    <!-- <li>
-                        <a class="tovar2" href="index16.html">
-                            <div class="figure">
-                            <img src="" >
-                            </div>
-                            <div class="botton">
-                                <p>50 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Вiдеокарта NVIDIA GeForce 4</h4>
-                            </div>
-                        </a>
-                    </li> -->
-                </ul>
-            </li>
-        </ul>
-    </div>
+            </div>
 
-
-
-    <!-- -------------------------- iнше -------------------------- -->
-    <div class="section" id="spare">
-        <p>Інше</p>
-    </div>
-
-    <div class="stroka">
-        <ul class="setka1x4">
-            <li>
-                <ul class="setka1x2">
-
-                    <!-- ---------- -->
-                    <li>
-                        <a class="tovar2" href="index20.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/original_fe361c8a-a141.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>200 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Колонка JBL Charge 2+</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="tovar2" href="index19.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/photo5406642022506413651.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>150 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Видеопроигры-<br>ватель</h4>
-                            </div>
-                        </a>
-                    </li>
-                    
-                </ul>
-            </li>
-            <!-- ---------- -->
-            <li>
-                <ul class="setka1x2">
-                    <!-- <li>
-                        <a class="tovar2" href="index19.html">
-                            <div class="figure">
-                            <img src="imgs/Товары/photo5406642022506413651.jpg" >
-                            </div>
-                            <div class="botton">
-                                <p>150 грн</p>
-                            </div>
-                            <div class="Name">
-                                <h4>Видеопроигры-<br>ватель</h4>
-                            </div>
-                        </a>
-                    </li> -->
-                    
-                </ul>
-            </li>
-
-        </ul>
-    </div>
-
-    <!-- --------------------------  Как купить? --------------------------  -->
-
-    <div class="data" id="data">
-        <h1>Як купити?</h1>
-    </div>
-
-    <div class="mydata">
-        <p>Купити можна замовивши доставку Новою Поштою або Укрпоштою.
-            <br>Пишіть чи дзвоніть, постараюся відповісти.
-            <br><br>Для замовлення товару можете надіслати листа на електронну пошту,
-            <br>для цього вкажіть своє Ім'я, Прізвище та По-батькові, номер телефону, місто,
-            <br> оператор доставки (Нова пошта або Укрпошта) та номер відділення пошти.
-            <br> Або телефонуйте.
-            <br>Можливий незначний торг.
-            <br><br>Продавець:<br><img src="icons/G.png" width="20px" height="20px">mail: es2702849@gmail.com</p>
-        <div class="prodav">
-
-            <li>
-                <a class="telegram" href="https://t.me/Segor5"><img src="icons/739158.png">Написати в Telegram</a>
-            </li>
-            <li>
-                <a class="gmail" href="https://gmail.google.com"><img src="icons/G.png">Написати в Gmail</a>
-            </li>
         </div>
-    </div>
+<!-- ------------------------------------------------------------------- -->
+<div class="section" id="Top">
+    <p>Топ товаров</p>
+</div>
+
+
+<div class="strokaNew">
+    <ul class="setka1x4">
+        <li>
+            <ul class="setka1x2">
+                <li>
+                    <a class="tovar2" href="index20.html">
+                        <h1>Топ</h1>
+                        <div class="figure">
+                        <img src="imgs/Товары/original_fe361c8a-a141.jpg" >
+                        </div>
+                        <div class="botton">
+                            <p>200 грн</p>
+                        </div>
+                        <div class="Name">
+                            <h4>Колонка JBL Charge 2+</h4>
+                        </div>
+                    </a>
+                </li>
+                <!-- ---------- -->
+                <li>
+                    <a class="tovar2" href="index18.html">
+                        <h1>Топ</h1>
+                        <div class="figure">
+                        <img src="imgs/Товары/photo_5472117609227994880_y.jpg" >
+                        </div>
+                        <div class="botton">
+                            <p>100 грн</p>
+                        </div>
+                        <div class="Name">
+                            <h4>Наушники i12 mini</h4>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <!-- ---------- -->
+            <ul class="setka1x2">
+                <li>
+                    <a class="tovar2" href="index1.html">
+                        <h1>Топ</h1>
+                        <div class="figure">
+                        <img src="imgs/Товары/IMG_6222.jpg" >
+                        </div>
+                        <div class="botton">
+                            <p>350 грн</p>
+                        </div>
+                        <div class="Name">
+                            <h4>Bravis A509 Jeans</h4>
+                        </div>
+                    </a>
+                </li>
+                <!-- ---------- -->
+                <li>
+                    <a class="tovar2" href="index22.html">
+                        <h1>Топ</h1>
+                        <div class="figure">
+                            <img src="imgs/Товары/photo_5470134670072072126_y.jpg" >
+                        </div>
+                        <div class="botton">
+                            <p>500 грн</p>
+                        </div>
+                        <div class="Name">
+                            <h4>Монитор FLATRON L1800P</h4>
+                        </div>
+                    </a>
+                </li>
+                <!-- ---------- -->
+            </ul>
+        </li>
+    </ul>
+</div>
+<!-- ------------------------------------------- -->
+<div class="section" id="Top">
+    <p>Контактная информация</p>
+</div>
+<div class="avtor" id="Avtor">
+   <p> Если вам понравился мой проект, 
+    <br>можете поддержать меня по моей карте: 4441 1144 0340 5176
+    <br>Буду очень благодарен!</p>
+</div>
+
+<div class="mydata">
+    <p>Купити можна замовивши доставку Новою Поштою або Укрпоштою.
+        <br>Пишіть чи дзвоніть, постараюся відповісти.
+        <br><br>Для замовлення товару можете надіслати листа на електронну пошту,
+        <br>для цього вкажіть своє Ім'я, Прізвище та По-батькові, номер телефону, місто,
+        <br> оператор доставки (Нова пошта або Укрпошта) та номер відділення пошти.
+        <br> Або телефонуйте.
+        <br>Можливий незначний торг.
+        <br><br>Продавець:<br><img src="icons/G.png" width="20px" height="20px">mail: es2702849@gmail.com</p>
+   
+        <ul class="prodav">
+        <li>
+            <a class="telegram" href="https://t.me/Segor5">
+                <img src="icons/2111646.png">
+            </a>
+        </li>
+        <li>
+            <a class="telegram" href="https://instagram.com/krestofer2?igshid=YzgyMTM2MGM=">
+                <img src="icons/4494488.png">
+            </a>
+        </li>
+        <li>
+            <a class="telegram" href="https://gmail.google.com">
+                <img src="icons/G.png">
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+</div>
+    
+    
 </body>
 
 </html>
