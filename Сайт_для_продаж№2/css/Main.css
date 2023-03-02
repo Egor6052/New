@@ -100,7 +100,13 @@ html body .Main .opis .opis1 h3 p a {
   color: #d72020;
 }
 html body .Main .opis .opis1 h3 p a:hover {
-  background-color: #848484;
+  transition: 0.5s;
+  width: 120%;
+  height: 120%;
+  margin-left: 0%;
+  margin-top: 0%;
+  font-size: 45px;
+  background-color: #bebebe;
 }
 html body .Main .content .boxes {
   margin-top: 100px;
