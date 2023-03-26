@@ -53,7 +53,7 @@
     
 
     .Main .opis .opis1 {
-        margin-top: 60px;
+        margin-top: -30px;
     }
     .Main .opis .opis1 h2 {
         font-size: 20px;
@@ -74,9 +74,26 @@
 
     .Main .content  {
         margin-left: -220px;
-        margin-top: -90px;
+        margin-top: -150px;
+    }
+    .Main .content .back .figure {
+        width: 300px; /* Ширина области */
+        height: 900px; /* Высота области */
+        margin: 0px; /* Обнуляем отступы */
     }
 
+    .Main .content .back .figure img { 
+        width: 100%; /* Ширина изображений */
+        height: 100%; /* Высота изображении */
+        object-fit: cover; /* Вписываем фотографию в область */
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: -850px;
+        filter: brightness(90%);
+    }
+
+    
     .Main .content .boxes .box1x4 li  {
         margin-top: 5px;
     }

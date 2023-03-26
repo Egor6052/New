@@ -114,7 +114,9 @@ html {
             // margin-top: -30px;
             // width: 100%;
             // height: 130px;
-            background-color: #36584e;
+            backdrop-filter: blur(50px);
+            position: relative;
+            // background-color: #36584e;
             border-radius: 5px;
             .opis1 {
             h2 {
@@ -136,6 +138,7 @@ html {
                 p {
                     // margin-left: 150px;
                     a {
+                        text-decoration: none;
                         border-radius: 5px;
                         padding-top: 5px;
                         padding-bottom: 5px;
@@ -160,6 +163,27 @@ html {
         }
         // Категории товаров
         .content {
+            .back{
+                margin-top: 10px;
+            }
+            .back .figure {
+                width: 1500px; /* Ширина области */
+                height: 740px; /* Высота области */
+                margin: 0px; /* Обнуляем отступы */
+                margin-left: 0px;
+                margin-top: -50px;
+                margin-bottom: -670px;
+            }
+        
+            .back .figure img { 
+                width: 100%; /* Ширина изображений */
+                height: 100%; /* Высота изображении */
+                object-fit: cover; /* Вписываем фотографию в область */
+                border-radius: 10px;
+                margin-top: 5px;
+                margin-left: 5px;
+            }
+            
             .boxes {
             margin-top: 100px;
             .box1x4 {
@@ -178,7 +202,9 @@ html {
                             border-radius: 15px;
                             font-family: Helvetica, Arial, sans-serif;
                             text-decoration: none;
-                            background-color: #c2c2c2;
+                            backdrop-filter: blur(15px);
+                            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+                            //background-color: #c2c2c2;
                             // width: 260px;
                             // height: 240px;
                             // margin-left: 20px;
@@ -194,28 +220,31 @@ html {
                                 border-radius: 10px;
                                 margin-top: 20px;
                                 margin-left: 30px;
-                                opacity: 20%;
-                                &:hover {
-                                    transition: 0.5s; //скорость анимации бокового меню;
-                                    width: 120%;
-                                    height: 120%;
-                                    margin-left: 0%;
-                                    margin-top: 0%;
-                                }
+                                opacity: 50%;
+                                // &:hover {
+                                //     transition: 0.5s; //скорость анимации бокового меню;
+                                //     width: 120%;
+                                //     height: 120%;
+                                //     margin-left: 0%;
+                                //     margin-top: 0%;
+                                // }
                             }
                             .Name {
                                 p {
+                                    position: relative;
                                     font-family: "Goudy Bookletter 1911", sans-serif;
                                     // margin-top: -100px;
                                     text-align: center;
-                                    color: #000000;
+                                    color: #ffffff;
                                     // font-size: 28px;
                                 }
                                 
                             }
                             &:hover {
-                                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                                background-color: #848484;
+                                
+                                backdrop-filter: blur(25px);
+                                box-shadow: 0px 8px 16px 0px rgba(0,0,0,1.0);
+                                //background-color: #848484;
                             }
                         }
                     }
@@ -227,10 +256,7 @@ html {
         }
         // Разделение на категории
         .section {
-            // margin-left: 0px;
-            // margin-top: 80px;
-            // padding-right: 100%;
-            // margin-right: 1400px;
+            position: relative;
             background-color: rgb(29, 74, 87);
                 p {
                     white-space: nowrap;
@@ -376,6 +402,7 @@ html {
         }
         // Товары по категориям (НЕ ГЛАВНАЯ)
         .stroka {
+            //background-image: url('icons/ManjaroWallpaper2.jpg');
             // margin-top: 40px;
             // margin-bottom: 40px;
                 .setka1x4 {

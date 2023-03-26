@@ -74,7 +74,8 @@ html body .Main .baner .wall2 h1 {
   color: #fff;
 }
 html body .Main .opis {
-  background-color: #36584e;
+  backdrop-filter: blur(50px);
+  position: relative;
   border-radius: 5px;
 }
 html body .Main .opis .opis1 h2 {
@@ -91,6 +92,7 @@ html body .Main .opis .opis1 h3 {
   color: #ffffff;
 }
 html body .Main .opis .opis1 h3 p a {
+  text-decoration: none;
   border-radius: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -107,6 +109,31 @@ html body .Main .opis .opis1 h3 p a:hover {
   margin-top: 0%;
   font-size: 45px;
   background-color: #bebebe;
+}
+html body .Main .content .back {
+  margin-top: 10px;
+}
+html body .Main .content .back .figure {
+  width: 1500px;
+  /* Ширина области */
+  height: 740px;
+  /* Высота области */
+  margin: 0px;
+  /* Обнуляем отступы */
+  margin-left: 0px;
+  margin-top: -50px;
+  margin-bottom: -670px;
+}
+html body .Main .content .back .figure img {
+  width: 100%;
+  /* Ширина изображений */
+  height: 100%;
+  /* Высота изображении */
+  object-fit: cover;
+  /* Вписываем фотографию в область */
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 html body .Main .content .boxes {
   margin-top: 100px;
@@ -128,7 +155,8 @@ html body .Main .content .boxes .box1x4 .box1x2 li a {
   border-radius: 15px;
   font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
-  background-color: #c2c2c2;
+  backdrop-filter: blur(15px);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
 }
 html body .Main .content .boxes .box1x4 .box1x2 li a .figure {
   margin: 0;
@@ -144,25 +172,20 @@ html body .Main .content .boxes .box1x4 .box1x2 li a .figure img {
   border-radius: 10px;
   margin-top: 20px;
   margin-left: 30px;
-  opacity: 20%;
-}
-html body .Main .content .boxes .box1x4 .box1x2 li a .figure img:hover {
-  transition: 0.5s;
-  width: 120%;
-  height: 120%;
-  margin-left: 0%;
-  margin-top: 0%;
+  opacity: 50%;
 }
 html body .Main .content .boxes .box1x4 .box1x2 li a .Name p {
+  position: relative;
   font-family: "Goudy Bookletter 1911", sans-serif;
   text-align: center;
-  color: #000000;
+  color: #ffffff;
 }
 html body .Main .content .boxes .box1x4 .box1x2 li a:hover {
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  background-color: #848484;
+  backdrop-filter: blur(25px);
+  box-shadow: 0px 8px 16px 0px #000000;
 }
 html body .Main .section {
+  position: relative;
   background-color: #1d4a57;
 }
 html body .Main .section p {
